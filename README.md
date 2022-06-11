@@ -1,6 +1,6 @@
 # Örüntü Tanıma için Kullanılan Makine Öğrenme Yöntemleri
 ## K-EN YAKIN KOMŞU ALGORİTMASI
-KNN algoritması için kullanılacak veriler el ile tanımlandı. Derste gösterilen kadın erkek örneği kullanılacak.
+KNN algoritması için kullanılacak veriler el ile tanımlandı.Erkek-kadın sınıflarına sahip bir veriseti tanımlandı.
 data = [["erkek",180,80], ["kadin",160,60], ["erkek",170,70], ["erkek",175,74], ["erkek",175,70], ["erkek",160,69], ["kadin",170,68], ["erkek",170,55], ["kadin",155,55], ["kadin",150,54], ["kadin",152,60], ["kadin",165,60]]
 
 Kullanıcıdan boy ve kilo için değerler alındı ve alınan değerler “yeni” değişkenine tanımlandı.
