@@ -23,13 +23,18 @@ for i in range(len(data)):
 data.sort(key = lambda data: data[3])
 
 Kullanıcıdan bir k değeri girilmesi istendi.
+
 k = input("K değerini giriniz:\n")
 k = int(k)
 
 Burada iki farklı yaklaşım ile hesaplama yapıldı:
+
 [1]	Çoğulcul Yaklaşım: k değerine göre en küçükler seçildi ve seçilenlerin kategorisinde hangisi çoğunluktaysa onun kategorisi girilen değerin kategorisi olarak belirlendi.
+
 kadin = 0
+
 erkek = 0
+
 for i in range(0,k):
     if data[i][0] == "erkek":
         erkek += 1
@@ -41,6 +46,7 @@ else:
     print("Plurality vote: Gender = erkek")
     
 [2]	Ağırlıklı Oylama: Burada k değerine kadar en küçük uzaklığa sahip olanların hesaplaması yapıldı. Yapılan hesaplamada en yüksek değeri veren kategori, girilen değerin kategorisi olarak atandı.
+
 for i in range(0,k):
     if (data[i][3] != 0):
         weights.append([i,(1/(data[i][3])**2)]) 
@@ -48,6 +54,7 @@ weights.sort(key = lambda data: data[1],reverse=True)
 print("Weighted vote: Gender = ", data[weights[0][0]][0])
 
 ## TEMEL BİLEŞENLER ANALİZİ (PCA)
+
 Kullanılacak verilerin tanımlanması yapıldı.
 
 dataX = 	[2.5,0.5,2.2,1.9,3.1,2.3,2,1,1.5,1.1]
@@ -67,7 +74,9 @@ for i in range(len(dataX)):
 for i in range(len(dataY)):
     dataY[i] = dataY[i] - meanY
 “covariance matrix” bileşenleri için X,X; X,Y; Y,X; Y,Y hesaplamaları gerçekleştirildi ve her biri kendi ilgili alanında “cov_matrix”’e atandı.
-# X,X
+
+X,X
+
 sum = 0.0
 for i in range(len(dataX)):
     sum = sum +(dataX[i] * dataX[i])
@@ -75,6 +84,7 @@ sum = sum / (len(dataX)-1)
 cov_matrix.append(sum)
 
 X,Y
+
 sum = 0.0
 for i in range(len(dataX)):
     sum = sum +(dataX[i] * dataY[i])
@@ -82,6 +92,7 @@ sum = sum / (len(dataX)-1)
 cov_matrix.append(sum)
 
 Y,X
+
 sum = 0.0
 for i in range(len(dataX)):
     sum = sum +(dataX[i] * dataY[i])
@@ -89,6 +100,7 @@ sum = sum / (len(dataX)-1)
 cov_matrix.append(sum)
 
 Y,Y
+
 sum = 0.0
 for i in range(len(dataY)):
     sum = sum +(dataY[i] * dataY[i])
