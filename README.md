@@ -1,9 +1,11 @@
 # Örüntü Tanıma için Kullanılan Makine Öğrenme Yöntemleri
 ## K-EN YAKIN KOMŞU ALGORİTMASI
 KNN algoritması için kullanılacak veriler el ile tanımlandı.Erkek-kadın sınıflarına sahip bir veriseti tanımlandı.
+
 data = [["erkek",180,80], ["kadin",160,60], ["erkek",170,70], ["erkek",175,74], ["erkek",175,70], ["erkek",160,69], ["kadin",170,68], ["erkek",170,55], ["kadin",155,55], ["kadin",150,54], ["kadin",152,60], ["kadin",165,60]]
 
 Kullanıcıdan boy ve kilo için değerler alındı ve alınan değerler “yeni” değişkenine tanımlandı.
+
 boy = input("Enter height:\n")
 boy = float(boy) 
 kilo = input("Enter weight:\n")
@@ -47,7 +49,9 @@ print("Weighted vote: Gender = ", data[weights[0][0]][0])
 
 ## TEMEL BİLEŞENLER ANALİZİ (PCA)
 Kullanılacak verilerin tanımlanması yapıldı.
+
 dataX = 	[2.5,0.5,2.2,1.9,3.1,2.3,2,1,1.5,1.1]
+
 dataY = 	[2.4,0.7,2.9,2.2,3,2.7,1.6,1.1,1.6,0.9]
 
 Her bir sütunun ortalaması alındı bu şekilde “covariance matrix” hesaplaması yapılacak.
@@ -70,21 +74,21 @@ for i in range(len(dataX)):
 sum = sum / (len(dataX)-1)
 cov_matrix.append(sum)
 
-# X,Y
+X,Y
 sum = 0.0
 for i in range(len(dataX)):
     sum = sum +(dataX[i] * dataY[i])
 sum = sum / (len(dataX)-1)
 cov_matrix.append(sum)
 
-# Y,X
+Y,X
 sum = 0.0
 for i in range(len(dataX)):
     sum = sum +(dataX[i] * dataY[i])
 sum = sum / (len(dataX)-1)
 cov_matrix.append(sum)
 
-# Y,Y
+Y,Y
 sum = 0.0
 for i in range(len(dataY)):
     sum = sum +(dataY[i] * dataY[i])
