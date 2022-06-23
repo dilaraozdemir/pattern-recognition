@@ -3,7 +3,7 @@
 ## K-Nearest Algoritm
 A dataset which has categorical data (men-woman) has defined.
 
-data = [["men",180,80], ["woman",160,60], ["men",170,70], ["men",175,74], ["men",175,70], ["men",160,69], ["woman",170,68], ["men",170,55], ["woman",155,55], ["woman",150,54], ["woman",152,60], ["woman",165,60]]
+data = [["man",180,80], ["woman",160,60], ["man",170,70], ["man",175,74], ["man",175,70], ["man",160,69], ["woman",170,68], ["man",170,55], ["woman",155,55], ["woman",150,54], ["woman",152,60], ["woman",165,60]]
 
 
 Requested input from user for weight and height and they have been assigned to new variable.
