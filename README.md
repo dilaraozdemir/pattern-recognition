@@ -1,10 +1,10 @@
 # Machine Learning Methods
 
 ## K-Nearest Algoritm
-A dataset which has categorical data (men-woman) has defined.
-
+🔸 A dataset which has categorical data (men-woman) has defined.
+```
 data = [["man",180,80], ["woman",160,60], ["man",170,70], ["man",175,74], ["man",175,70], ["man",160,69], ["woman",170,68], ["man",170,55], ["woman",155,55], ["woman",150,54], ["woman",152,60], ["woman",165,60]]
-
+```
 
 Requested input from user for weight and height and they have been assigned to new variable.
 
