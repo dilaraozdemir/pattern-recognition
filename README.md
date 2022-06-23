@@ -3,9 +3,10 @@
 ## K-Nearest Algoritm
 A dataset which has categorical data (men-woman) has defined.
 
-data = [["erkek",180,80], ["kadin",160,60], ["erkek",170,70], ["erkek",175,74], ["erkek",175,70], ["erkek",160,69], ["kadin",170,68], ["erkek",170,55], ["kadin",155,55], ["kadin",150,54], ["kadin",152,60], ["kadin",165,60]]
+data = [["men",180,80], ["woman",160,60], ["men",170,70], ["men",175,74], ["men",175,70], ["men",160,69], ["woman",170,68], ["men",170,55], ["woman",155,55], ["woman",150,54], ["woman",152,60], ["woman",165,60]]
 
-Kullanıcıdan boy ve kilo için değerler alındı ve alınan değerler “yeni” değişkenine tanımlandı.
+
+Requested input from user for weight and height and they have been assigned to new variable.
 
 boy = input("Enter height:\n")
 boy = float(boy) 
