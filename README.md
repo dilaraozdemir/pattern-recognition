@@ -6,7 +6,7 @@
 data = [["man",180,80], ["woman",160,60], ["man",170,70], ["man",175,74], ["man",175,70], ["man",160,69], ["woman",170,68], ["man",170,55], ["woman",155,55], ["woman",150,54], ["woman",152,60], ["woman",165,60]]
 ```
 
-Requested input from user for weight and height and they have been assigned to new variable.
+🔸 Requested input from user for weight and height and they have been assigned to new variable.
 ```
 height = input("Enter height:\n")
 height = float(height) 
@@ -14,9 +14,13 @@ weight = input("Enter weight:\n")
 weight = float(weight) 
 new = [height,weight]
 ```
+🔸 🔸 A function has been created appropriate to dataset for calculate the eucledian distance. In here, input from user and dataset has been used as a parameter of function. In function,  differences beetween requested input from user and dataset rows has been calculated and taken its square root. As a result of this calculations, euclidian distance has been found.
+
+
 Öklit mesafesinin hesaplanması için kullanılan veri setine uygun bir hesaplama foksiyonu yazıldı. Burada parametre olarak kullanıcı tarafından alınan veriler gönderildi ve veri setindeki her bir kendi ilgili sütunu ile fark hesaplaması yapıldı. Bu sayede öklit uzaklığı bulundu.
-def euclidean_distance(tablo,yeni):
- distance = ((tablo[1] - yeni[0]) ** 2) + ((tablo[2] - yeni[1]) ** 2)
+
+def euclidean_distance(data,yeni):
+ distance = ((data[1] - new[0]) ** 2) + ((data[2] - new[1]) ** 2)
     return math.sqrt(distance)
 
 Yeni bir liste oluşturuldu. Oluşturulan liste data = [“kategori”, “boy”, “kilo”, “girilen değer ile öklit uzaklığı”] olarak tanımlandı. Daha sonrasında bu liste uzaklıklara göre sıralandı.
