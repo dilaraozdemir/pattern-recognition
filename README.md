@@ -7,13 +7,13 @@ data = [["man",180,80], ["woman",160,60], ["man",170,70], ["man",175,74], ["man"
 ```
 
 Requested input from user for weight and height and they have been assigned to new variable.
-
-boy = input("Enter height:\n")
-boy = float(boy) 
-kilo = input("Enter weight:\n")
-kilo = float(kilo) 
-yeni = [boy,kilo]
-
+```
+height = input("Enter height:\n")
+height = float(height) 
+weight = input("Enter weight:\n")
+weight = float(weight) 
+new = [height,weight]
+```
 Öklit mesafesinin hesaplanması için kullanılan veri setine uygun bir hesaplama foksiyonu yazıldı. Burada parametre olarak kullanıcı tarafından alınan veriler gönderildi ve veri setindeki her bir kendi ilgili sütunu ile fark hesaplaması yapıldı. Bu sayede öklit uzaklığı bulundu.
 def euclidean_distance(tablo,yeni):
  distance = ((tablo[1] - yeni[0]) ** 2) + ((tablo[2] - yeni[1]) ** 2)
