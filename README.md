@@ -17,9 +17,7 @@ new = [height,weight]
 🔸 A function has been created appropriate to dataset for calculate the eucledian distance. In here, input from user and dataset has been used as a parameter of function. In function,  differences beetween requested input from user and dataset rows has been calculated and taken its square root. As a result of this calculations, euclidian distance has been found.
 
 
-Öklit mesafesinin hesaplanması için kullanılan veri setine uygun bir hesaplama foksiyonu yazıldı. Burada parametre olarak kullanıcı tarafından alınan veriler gönderildi ve veri setindeki her bir kendi ilgili sütunu ile fark hesaplaması yapıldı. Bu sayede öklit uzaklığı bulundu.
-
-def euclidean_distance(data,yeni):
+def euclidean_distance(data,new):
  distance = ((data[1] - new[0]) ** 2) + ((data[2] - new[1]) ** 2)
     return math.sqrt(distance)
 
