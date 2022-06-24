@@ -23,9 +23,11 @@ def euclidean_distance(data,new):
 ```
 🔸 A new list has been created. Created list has been defined as data = [“kategori”, “boy”, “kilo”, “girilen değer ile öklit uzaklığı”]. And then, this list has been sorted by distances.
 
+```
 for i in range(len(new)):
     data[i].append(euclidean_distance(data[i],new)) 
 data.sort(key = lambda data: data[3])
+```
 
 Kullanıcıdan bir k değeri girilmesi istendi.
 
