@@ -16,11 +16,11 @@ new = [height,weight]
 ```
 🔸 A function has been created appropriate to dataset for calculate the eucledian distance. In here, input from user and dataset has been used as a parameter of function. In function,  differences beetween requested input from user and dataset rows has been calculated and taken its square root. As a result of this calculations, euclidian distance has been found.
 
-
+```
 def euclidean_distance(data,new):
  distance = ((data[1] - new[0]) ** 2) + ((data[2] - new[1]) ** 2)
     return math.sqrt(distance)
-
+```
 🔸 A new list has been created. Created list has been defined as data = [“kategori”, “boy”, “kilo”, “girilen değer ile öklit uzaklığı”]. And then, this list has been sorted by distances.
 
 for i in range(len(new)):
