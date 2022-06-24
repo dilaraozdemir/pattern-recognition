@@ -21,9 +21,10 @@ def euclidean_distance(data,new):
  distance = ((data[1] - new[0]) ** 2) + ((data[2] - new[1]) ** 2)
     return math.sqrt(distance)
 
-Yeni bir liste oluşturuldu. Oluşturulan liste data = [“kategori”, “boy”, “kilo”, “girilen değer ile öklit uzaklığı”] olarak tanımlandı. Daha sonrasında bu liste uzaklıklara göre sıralandı.
-for i in range(len(data)):
-    data[i].append(euclidean_distance(data[i],yeni)) 
+🔸 A new list has been created. Created list has been defined as data = [“kategori”, “boy”, “kilo”, “girilen değer ile öklit uzaklığı”]. And then, this list has been sorted by distances.
+
+for i in range(len(new)):
+    data[i].append(euclidean_distance(data[i],new)) 
 data.sort(key = lambda data: data[3])
 
 Kullanıcıdan bir k değeri girilmesi istendi.
