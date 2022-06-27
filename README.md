@@ -38,11 +38,11 @@ k = int(k)
 
 🔸 Here, calculations has been done with two diferent approaches:
 
-* **Plural Approach:** k değerine göre en küçükler seçildi ve seçilenlerin kategorisinde hangisi çoğunluktaysa onun kategorisi girilen değerin kategorisi olarak belirlendi.
+* **Plurality Vote Approach:** Smallest values has been choose according to k value. Which categories of chosen one was more than others, this category determined as predicted category.
 
-kadin = 0
-
-erkek = 0
+```
+woman = 0
+man = 0
 
 for i in range(0,k):
     if data[i][0] == "erkek":
@@ -50,10 +50,11 @@ for i in range(0,k):
     elif data[i][0] == "kadin":
         kadin += 1 
 if kadin > erkek:
-    print("Plurality vote: Gender = kadin")
+    print("Plurality vote: Gender = woman")
 else:
     print("Plurality vote: Gender = erkek")
-    
+```    
+
 [2]	Ağırlıklı Oylama: Burada k değerine kadar en küçük uzaklığa sahip olanların hesaplaması yapıldı. Yapılan hesaplamada en yüksek değeri veren kategori, girilen değerin kategorisi olarak atandı.
 
 for i in range(0,k):
