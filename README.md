@@ -29,7 +29,7 @@ for i in range(len(new)):
 data.sort(key = lambda data: data[3])
 ```
 
-Kullanıcıdan bir k değeri girilmesi istendi.
+🔸 An input refers k value requested from user.
 
 k = input("K değerini giriniz:\n")
 k = int(k)
