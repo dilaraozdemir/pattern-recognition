@@ -47,7 +47,7 @@ man = 0
 for i in range(0,k):
     if data[i][0] == "erkek":
         erkek += 1
-    elif data[i][0] == "kadin":
+    elif data[i][0] == "woman":
         kadin += 1 
 if kadin > erkek:
     print("Plurality vote: Gender = woman")
