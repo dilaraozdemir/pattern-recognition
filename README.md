@@ -31,12 +31,14 @@ data.sort(key = lambda data: data[3])
 
 🔸 An input refers k value requested from user.
 
+```
 k = input("K değerini giriniz:\n")
 k = int(k)
+```
 
-Burada iki farklı yaklaşım ile hesaplama yapıldı:
+🔸 Here, calculations has been done with two diferent approaches:
 
-[1]	Çoğulcul Yaklaşım: k değerine göre en küçükler seçildi ve seçilenlerin kategorisinde hangisi çoğunluktaysa onun kategorisi girilen değerin kategorisi olarak belirlendi.
+    Plural Approach: k değerine göre en küçükler seçildi ve seçilenlerin kategorisinde hangisi çoğunluktaysa onun kategorisi girilen değerin kategorisi olarak belirlendi.
 
 kadin = 0
 
