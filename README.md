@@ -38,7 +38,7 @@ k = int(k)
 
 🔸 Here, calculations has been done with two diferent approaches:
 
-* Plural Approach: k değerine göre en küçükler seçildi ve seçilenlerin kategorisinde hangisi çoğunluktaysa onun kategorisi girilen değerin kategorisi olarak belirlendi.
+* **Plural Approach:** k değerine göre en küçükler seçildi ve seçilenlerin kategorisinde hangisi çoğunluktaysa onun kategorisi girilen değerin kategorisi olarak belirlendi.
 
 kadin = 0
 
