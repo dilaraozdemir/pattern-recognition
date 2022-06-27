@@ -45,14 +45,14 @@ woman = 0
 man = 0
 
 for i in range(0,k):
-    if data[i][0] == "erkek":
-        erkek += 1
+    if data[i][0] == "man":
+        man += 1
     elif data[i][0] == "woman":
-        kadin += 1 
-if kadin > erkek:
+        woman += 1 
+if woman > man:
     print("Plurality vote: Gender = woman")
 else:
-    print("Plurality vote: Gender = erkek")
+    print("Plurality vote: Gender = man")
 ```    
 
 [2]	Ağırlıklı Oylama: Burada k değerine kadar en küçük uzaklığa sahip olanların hesaplaması yapıldı. Yapılan hesaplamada en yüksek değeri veren kategori, girilen değerin kategorisi olarak atandı.
