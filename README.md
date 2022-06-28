@@ -8,9 +8,9 @@ data = [["man",180,80], ["woman",160,60], ["man",170,70], ["man",175,74], ["man"
 
 🔸 Requested input from user for weight and height and they have been assigned to new variable.
 ```
-height = input("Enter height:\n")
+height = input("Enter height: \n")
 height = float(height) 
-weight = input("Enter weight:\n")
+weight = input("Enter weight: \n")
 weight = float(weight) 
 new = [height,weight]
 ```
