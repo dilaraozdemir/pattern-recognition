@@ -14,7 +14,7 @@ from nltk.stem.porter import PorterStemmer
 from sklearn.feature_extraction.text import CountVectorizer
 # KNN
 def knn():
-    # Knn için verinin elle oluşturulması
+    # Data creating manually
     data = 	[["man",180,80],
     ["woman",160,60],
     ["man",170,70],
