@@ -15,18 +15,18 @@ from sklearn.feature_extraction.text import CountVectorizer
 # KNN
 def knn():
     # Knn için verinin elle oluşturulması
-    data = 	[["erkek",180,80],
-    ["kadin",160,60],
-    ["erkek",170,70],
-    ["erkek",175,74],
-    ["erkek",175,70],
-    ["erkek",160,69],
-    ["kadin",170,68],
-    ["erkek",170,55],
-    ["kadin",155,55],
-    ["kadin",150,54],
-    ["kadin",152,60],
-    ["kadin",165,60]]
+    data = 	[["man",180,80],
+    ["woman",160,60],
+    ["man",170,70],
+    ["man",175,74],
+    ["man",175,70],
+    ["man",160,69],
+    ["woman",170,68],
+    ["man",170,55],
+    ["woman",155,55],
+    ["woman",150,54],
+    ["woman",152,60],
+    ["woman",165,60]]
     
     
     # Kullanıcıdan alınacak yeni değer
