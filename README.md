@@ -54,8 +54,7 @@ if woman > man:
 else:
     print("Plurality vote: Gender = man")
 ```    
-
-[2]	Ağırlıklı Oylama: Burada k değerine kadar en küçük uzaklığa sahip olanların hesaplaması yapıldı. Yapılan hesaplamada en yüksek değeri veren kategori, girilen değerin kategorisi olarak atandı.
+* **Weighted Vote Approach:** Here, the smallest distances to k value has been calculated. As a result of calculation; the category that gives biggest value is assinged as category of prediction.
 
 for i in range(0,k):
     if (data[i][3] != 0):
