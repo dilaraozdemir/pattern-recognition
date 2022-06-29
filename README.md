@@ -32,7 +32,7 @@ data.sort(key = lambda data: data[3])
 🔸 An input refers k value requested from user.
 
 ```
-k = input("K değerini giriniz:\n")
+k = input("Please enter k value:\n")
 k = int(k)
 ```
 
