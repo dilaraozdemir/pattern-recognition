@@ -64,7 +64,7 @@ print("Weighted vote: Gender = ", data[weights[0][0]][0])
 ```
 ## TEMEL BİLEŞENLER ANALİZİ (PCA)
 
-Kullanılacak verilerin tanımlanması yapıldı.
+🔸Kullanılacak verilerin tanımlanması yapıldı.
 
 dataX = 	[2.5,0.5,2.2,1.9,3.1,2.3,2,1,1.5,1.1]
 
