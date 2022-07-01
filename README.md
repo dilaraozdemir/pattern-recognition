@@ -114,14 +114,14 @@ for i in range(len(dataX)):
 sum = sum / (len(dataX)-1)
 cov_matrix.append(sum)
 ```
-Y,Y
-
+* Y,Y
+```
 sum = 0.0
 for i in range(len(dataY)):
     sum = sum +(dataY[i] * dataY[i])
 sum = sum / (len(dataX)-1)
 cov_matrix.append(sum)
-
+```
 “covariance matrix” ekrana yazdırıldı.
 print("Covariance Matrix: ",cov_matrix)
 
