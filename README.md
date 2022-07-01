@@ -80,7 +80,7 @@ for i in range(len(dataY)):
     meanY += dataY[i] 
 meanY =  meanY /len(dataY)
 ```
-🔸 Her bir X ve Y değerinden ortalamaları çıkartıldı.
+🔸 The mean of each X and Y value was subtracted.
 for i in range(len(dataX)):
     dataX[i] = dataX[i] - meanX
 for i in range(len(dataY)):
