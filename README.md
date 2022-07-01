@@ -85,7 +85,9 @@ for i in range(len(dataX)):
     dataX[i] = dataX[i] - meanX
 for i in range(len(dataY)):
     dataY[i] = dataY[i] - meanY
-“covariance matrix” bileşenleri için X,X; X,Y; Y,X; Y,Y hesaplamaları gerçekleştirildi ve her biri kendi ilgili alanında “cov_matrix”’e atandı.
+
+🔸 X,X; X,Y; Y,X; Y,Y values has been calculated for “covariance matrix” components and each value has been assigned its related component.
+ ve her biri kendi ilgili alanında “cov_matrix”’e atandı.
 
 X,X
 
