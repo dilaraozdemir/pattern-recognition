@@ -62,7 +62,7 @@ for i in range(0,k):
 weights.sort(key = lambda data: data[1],reverse=True)
 print("Weighted vote: Gender = ", data[weights[0][0]][0])
 ```
-## TEMEL BİLEŞENLER ANALİZİ (PCA)
+## Principal Component Analysis (PCA)
 
 🔸Kullanılacak verilerin tanımlanması yapıldı.
 
