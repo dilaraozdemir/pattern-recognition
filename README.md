@@ -90,14 +90,14 @@ for i in range(len(dataY)):
 🔸 X,X; X,Y; Y,X; Y,Y values has been calculated for “covariance matrix” components and each value has been assigned its related component.
 
 
-X,X
-
+* X,X
+```
 sum = 0.0
 for i in range(len(dataX)):
     sum = sum +(dataX[i] * dataX[i])
 sum = sum / (len(dataX)-1)
 cov_matrix.append(sum)
-
+```
 X,Y
 
 sum = 0.0
