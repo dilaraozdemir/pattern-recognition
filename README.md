@@ -122,7 +122,7 @@ for i in range(len(dataY)):
 sum = sum / (len(dataX)-1)
 cov_matrix.append(sum)
 ```
-“covariance matrix” ekrana yazdırıldı.
+Printing “covariance matrix” to the screen.
 print("Covariance Matrix: ",cov_matrix)
 
 ## K-MEANS KÜMELEME YÖNTEMİ
