@@ -126,7 +126,7 @@ cov_matrix.append(sum)
 ```
 print("Covariance Matrix: ",cov_matrix)
 ```
-## K-MEANS KÜMELEME YÖNTEMİ
+## K-means Clustering   
 Veri seti 200 tane örnek içermektedir ve başlangıçta 4 tane “center” tanımlanmaktadır.
 dataset, classes = make_blobs(n_samples=200, n_features=2, centers=4, cluster_std=0.5, random_state=0)
 200 tane rastgele örnekler içeren verisetinin sütunları “var1” ve “var2” olarak tanımlanmaktadır. Bu veriler görselleştirilmektedir.
