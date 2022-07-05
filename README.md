@@ -122,7 +122,7 @@ for i in range(len(dataY)):
 sum = sum / (len(dataX)-1)
 cov_matrix.append(sum)
 ```
-Printing “covariance matrix” to the screen.
+🔸 Printing “covariance matrix” to the screen.
 ```
 print("Covariance Matrix: ",cov_matrix)
 ```
