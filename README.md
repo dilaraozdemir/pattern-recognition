@@ -133,7 +133,6 @@ dataset, classes = make_blobs(n_samples=200, n_features=2, centers=4, cluster_st
 ```
 🔸 Columns of dataset, has 200 random examples, has been determined as "var1" and "var2".
 ```
-200 tane rastgele örnekler içeren verisetinin sütunları “var1” ve “var2” olarak tanımlanmaktadır. Bu veriler görselleştirilmektedir.
 df = pd.DataFrame(dataset, columns=['var1', 'var2'])
 sns.scatterplot(data=df, x="var1", y="var2")
 plt.show()
