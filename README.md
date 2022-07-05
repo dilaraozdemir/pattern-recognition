@@ -123,8 +123,9 @@ sum = sum / (len(dataX)-1)
 cov_matrix.append(sum)
 ```
 Printing “covariance matrix” to the screen.
+```
 print("Covariance Matrix: ",cov_matrix)
-
+```
 ## K-MEANS KÜMELEME YÖNTEMİ
 Veri seti 200 tane örnek içermektedir ve başlangıçta 4 tane “center” tanımlanmaktadır.
 dataset, classes = make_blobs(n_samples=200, n_features=2, centers=4, cluster_std=0.5, random_state=0)
