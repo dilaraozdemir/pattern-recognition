@@ -156,7 +156,8 @@ plt.scatter(kmeans.cluster_centers_[:,0], kmeans.cluster_centers_[:,1],
 plt.legend()
 plt.show()
 ```
-GAUSSIAN NAIVE BAYES Method
+## Gaussian Naive Bayes Method
+
 Verinin ilk içeri “index”i hava durumu ve ikinci “index”i futbol oynanma durumunu belirtmektedir.
 data = 	[["Y","H"], ["Y","H"], ["B","E"], ["G","E"], ["G","E"], ["G","H"], ["B","E"], ["Y","H"], ["Y","E"], ["G","E"], ["Y","E"], ["B","E"], ["B","E"], ["G","H"]]
 Bütüm “evet”lerin sayımı yapılmaktadır ve “evet” adındaki bir sayıcıya atılmaktadır.
