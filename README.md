@@ -138,7 +138,7 @@ sns.scatterplot(data=df, x="var1", y="var2")
 plt.show()
 ```
 
-K-means model has been determined. 
+🔸 K-means model has been determined. 
 
 model = KMeans()
 
