@@ -142,7 +142,9 @@ plt.show()
 ```
 model = KMeans()
 ```
-🔸 4 cluster oluşrurularak oluşturulan “dataframe” modele belirli parametrelerde atanmaktadır.
+🔸 Dataframe that has been created with 4 clusters assign to the model with different parameters.
+4 cluster oluşrurularak oluşturulan “dataframe” modele belirli parametrelerde atanmaktadır.
+
 kmeans = KMeans(n_clusters=4, init='k-means++', random_state=0).fit(df)
 Counter(kmeans.labels_)
 Counter({2: 50, 0: 50, 3: 50, 1: 50})
