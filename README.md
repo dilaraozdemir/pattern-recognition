@@ -148,8 +148,8 @@ kmeans = KMeans(n_clusters=4, init='k-means++', random_state=0).fit(df)
 Counter(kmeans.labels_)
 Counter({2: 50, 0: 50, 3: 50, 1: 50})
 ```
-Results of training step, each cluster has been visualized with different colors.
-Eğitim sonucunda oluşan her bir küme farklı olarak renklendirilip ekrana bastırılmaktadır.
+🔸 Results of training step, each cluster has been visualized with different colors. (With seaborn library)
+
 sns.scatterplot(data=df, x="var1", y="var2", hue=kmeans.labels_)
 plt.scatter(kmeans.cluster_centers_[:,0], kmeans.cluster_centers_[:,1], 
             marker="X", c="r", s=80, label="centroids")
