@@ -143,11 +143,11 @@ plt.show()
 model = KMeans()
 ```
 🔸 Dataframe that has been created with 4 clusters assign to the model with different parameters.
-
+```
 kmeans = KMeans(n_clusters=4, init='k-means++', random_state=0).fit(df)
 Counter(kmeans.labels_)
 Counter({2: 50, 0: 50, 3: 50, 1: 50})
-
+```
 Eğitim sonucunda oluşan her bir küme farklı olarak renklendirilip ekrana bastırılmaktadır.
 sns.scatterplot(data=df, x="var1", y="var2", hue=kmeans.labels_)
 plt.scatter(kmeans.cluster_centers_[:,0], kmeans.cluster_centers_[:,1], 
