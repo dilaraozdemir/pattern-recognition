@@ -138,7 +138,8 @@ sns.scatterplot(data=df, x="var1", y="var2")
 plt.show()
 ```
 
-“K-means” modeli tanımlanmaktadır. 
+K-means model has been determined. 
+
 model = KMeans()
 
 4 cluster oluşrurularak oluşturulan “dataframe” modele belirli parametrelerde atanmaktadır.
