@@ -158,6 +158,7 @@ plt.show()
 ```
 ## Gaussian Naive Bayes Method
 
+🔸 The first index of data has been determined as weather and the second one has been playing state of football. 
 Verinin ilk içeri “index”i hava durumu ve ikinci “index”i futbol oynanma durumunu belirtmektedir.
 data = 	[["Y","H"], ["Y","H"], ["B","E"], ["G","E"], ["G","E"], ["G","H"], ["B","E"], ["Y","H"], ["Y","E"], ["G","E"], ["Y","E"], ["B","E"], ["B","E"], ["G","H"]]
 Bütüm “evet”lerin sayımı yapılmaktadır ve “evet” adındaki bir sayıcıya atılmaktadır.
