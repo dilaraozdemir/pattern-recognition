@@ -149,12 +149,13 @@ Counter(kmeans.labels_)
 Counter({2: 50, 0: 50, 3: 50, 1: 50})
 ```
 🔸 Results of training step, each cluster has been visualized with different colors. (With seaborn library)
-
+```
 sns.scatterplot(data=df, x="var1", y="var2", hue=kmeans.labels_)
 plt.scatter(kmeans.cluster_centers_[:,0], kmeans.cluster_centers_[:,1], 
             marker="X", c="r", s=80, label="centroids")
 plt.legend()
-plt.show() 
+plt.show()
+```
 GAUSSIAN NAIVE BAYES YÖNTEMİ
 Verinin ilk içeri “index”i hava durumu ve ikinci “index”i futbol oynanma durumunu belirtmektedir.
 data = 	[["Y","H"], ["Y","H"], ["B","E"], ["G","E"], ["G","E"], ["G","H"], ["B","E"], ["Y","H"], ["Y","E"], ["G","E"], ["Y","E"], ["B","E"], ["B","E"], ["G","H"]]
