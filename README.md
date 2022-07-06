@@ -139,10 +139,10 @@ plt.show()
 ```
 
 🔸 K-means model has been determined. 
-
+```
 model = KMeans()
-
-4 cluster oluşrurularak oluşturulan “dataframe” modele belirli parametrelerde atanmaktadır.
+```
+🔸 4 cluster oluşrurularak oluşturulan “dataframe” modele belirli parametrelerde atanmaktadır.
 kmeans = KMeans(n_clusters=4, init='k-means++', random_state=0).fit(df)
 Counter(kmeans.labels_)
 Counter({2: 50, 0: 50, 3: 50, 1: 50})
