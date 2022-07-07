@@ -162,6 +162,18 @@ plt.show()
 ```
 data = 	[["R","N"], ["R","N"], ["C","Y"], ["S","Y"], ["S","Y"], ["S","N"], ["C","Y"], ["R","N"], ["R","Y"], ["S","Y"], ["R","Y"], ["C","Y"], ["C","Y"], ["S","N"]]
 ```
+* In here: 
+    
+    R = Rainy
+
+    C = Cloudy
+
+    S = Sunny
+
+    Y = Yes
+    
+    N = No
+
 Bütüm “evet”lerin sayımı yapılmaktadır ve “evet” adındaki bir sayıcıya atılmaktadır.
 evet = 0
 for i in range(len(data)):
