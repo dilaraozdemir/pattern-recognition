@@ -160,7 +160,7 @@ plt.show()
 
 🔸 The first index of data has been determined as weather and the second one has been playing state of football. 
 ```
-data = 	[["Y","H"], ["Y","H"], ["B","E"], ["G","E"], ["G","E"], ["G","H"], ["B","E"], ["Y","H"], ["Y","E"], ["G","E"], ["Y","E"], ["B","E"], ["B","E"], ["G","H"]]
+data = 	[["R","N"], ["R","N"], ["C","Y"], ["G","E"], ["S","Y"], ["S","N"], ["B","E"], ["R","N"], ["R","Y"], ["S","Y"], ["R","Y"], ["C","Y"], ["C","Y"], ["G","H"]]
 ```
 Bütüm “evet”lerin sayımı yapılmaktadır ve “evet” adındaki bir sayıcıya atılmaktadır.
 evet = 0
