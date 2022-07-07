@@ -171,10 +171,11 @@ data = 	[["R","N"], ["R","N"], ["C","Y"], ["S","Y"], ["S","Y"], ["S","N"], ["C",
     S = Sunny
 
     Y = Yes
-    
+
     N = No
 
-Bütüm “evet”lerin sayımı yapılmaktadır ve “evet” adındaki bir sayıcıya atılmaktadır.
+🔸Counter for whole yes number;
+
 evet = 0
 for i in range(len(data)):
     if data[i][1] == "E" :
