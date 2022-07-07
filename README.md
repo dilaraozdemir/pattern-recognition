@@ -175,11 +175,15 @@ data = 	[["R","N"], ["R","N"], ["C","Y"], ["S","Y"], ["S","Y"], ["S","N"], ["C",
     N = No
 
 🔸Counter for whole yes number;
-
-evet = 0
+```
+yes = 0
 for i in range(len(data)):
-    if data[i][1] == "E" :
-        evet += 1
+    if data[i][1] == "Y" :
+        yes += 1
+```
+
+
+
 Bütüm “hayirlar”ların sayımı yapılmaktadır ve “hayir” adındaki bir sayıcıya atılmaktadır.
 hayir = 0
 for i in range(len(data)):
