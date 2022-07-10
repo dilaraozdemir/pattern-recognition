@@ -182,7 +182,7 @@ for i in range(len(data)):
         yes += 1
 ```
 
-🔸Counter for whole yes number;
+🔸Counter for whole no number;
 
 Bütüm “hayirlar”ların sayımı yapılmaktadır ve “hayir” adındaki bir sayıcıya atılmaktadır.
 hayir = 0
