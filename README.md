@@ -190,12 +190,12 @@ for i in range(len(data)):
         no += 1
 ```
 🔸 Counter for whole "sunny" number;
-
+```
 sunny= 0
 for i in range(len(data)):
     if data[i][0] == "S" :
         sunny += 1
-
+```
 Bütüm “yagmurlu”ların sayımı yapılmaktadır ve “yagmurlu” adındaki bir sayıcıya atılmaktadır.
 yagmurlu = 0
 for i in range(len(data)):
