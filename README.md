@@ -189,6 +189,8 @@ for i in range(len(data)):
     if data[i][1] == "N" :
         no += 1
 
+🔸Counter for whole "sunny" number;
+
     Bütüm “gunesli”lerin sayımı yapılmaktadır ve “gunesli” adındaki bir sayıcıya atılmaktadır.
 gunesli= 0
 for i in range(len(data)):
