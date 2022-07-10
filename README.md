@@ -196,12 +196,15 @@ for i in range(len(data)):
     if data[i][0] == "S" :
         sunny += 1
 ```
+
+
 Bütüm “yagmurlu”ların sayımı yapılmaktadır ve “yagmurlu” adındaki bir sayıcıya atılmaktadır.
+```
 yagmurlu = 0
 for i in range(len(data)):
     if data[i][0] == "Y" :
         yagmurlu += 1
-
+```
 Bütüm “bulutlu”ların sayımı yapılmaktadır ve “bulutlu” adındaki bir sayıcıya atılmaktadır.
 bulutlu = 0
 for i in range(len(data)):
