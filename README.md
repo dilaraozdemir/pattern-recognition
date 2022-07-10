@@ -174,7 +174,7 @@ data = 	[["R","N"], ["R","N"], ["C","Y"], ["S","Y"], ["S","Y"], ["S","N"], ["C",
 
     N = No
 
-🔸Counter for whole yes number;
+🔸 Counter for whole yes number;
 ```
 yes = 0
 for i in range(len(data)):
@@ -182,7 +182,7 @@ for i in range(len(data)):
         yes += 1
 ```
 
-🔸Counter for whole no number;
+🔸 Counter for whole no number;
 ```
 no = 0
 for i in range(len(data)):
