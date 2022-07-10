@@ -187,7 +187,7 @@ for i in range(len(data)):
 no = 0
 for i in range(len(data)):
     if data[i][1] == "N" :
-        hayir += 1
+        no += 1
 
     Bütüm “gunesli”lerin sayımı yapılmaktadır ve “gunesli” adındaki bir sayıcıya atılmaktadır.
 gunesli= 0
