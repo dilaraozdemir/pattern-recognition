@@ -184,10 +184,9 @@ for i in range(len(data)):
 
 🔸Counter for whole no number;
 
-Bütüm “hayirlar”ların sayımı yapılmaktadır ve “hayir” adındaki bir sayıcıya atılmaktadır.
-hayir = 0
+no = 0
 for i in range(len(data)):
-    if data[i][1] == "H" :
+    if data[i][1] == "N" :
         hayir += 1
 
     Bütüm “gunesli”lerin sayımı yapılmaktadır ve “gunesli” adındaki bir sayıcıya atılmaktadır.
