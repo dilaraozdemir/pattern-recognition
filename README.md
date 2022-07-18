@@ -205,7 +205,7 @@ for i in range(len(data)):
     if data[i][0] == "Y" :
         rainy += 1
 ```
-Bütüm “bulutlu”ların sayımı yapılmaktadır ve “bulutlu” adındaki bir sayıcıya atılmaktadır.
+🔸 Bütüm “bulutlu”ların sayımı yapılmaktadır ve “bulutlu” adındaki bir sayıcıya atılmaktadır.
 ```
 bulutlu = 0
 for i in range(len(data)):
