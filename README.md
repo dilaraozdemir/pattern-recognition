@@ -198,12 +198,12 @@ for i in range(len(data)):
 ```
 
 
-Calculated counter of rainy days and assign to a counter called rainy.
+🔸 Calculated counter of rainy days and assign to a counter called rainy.
 ```
-yagmurlu = 0
+rainy = 0
 for i in range(len(data)):
     if data[i][0] == "Y" :
-        yagmurlu += 1
+        rainy += 1
 ```
 Bütüm “bulutlu”ların sayımı yapılmaktadır ve “bulutlu” adındaki bir sayıcıya atılmaktadır.
 bulutlu = 0
