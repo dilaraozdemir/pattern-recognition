@@ -198,7 +198,7 @@ for i in range(len(data)):
 ```
 
 
-Bütüm “yagmurlu”ların sayımı yapılmaktadır ve “yagmurlu” adındaki bir sayıcıya atılmaktadır.
+Calculated counter of rainy days ve “yagmurlu” adındaki bir sayıcıya atılmaktadır.
 ```
 yagmurlu = 0
 for i in range(len(data)):
