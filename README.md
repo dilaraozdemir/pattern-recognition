@@ -205,7 +205,7 @@ for i in range(len(data)):
     if data[i][0] == "R" :
         rainy += 1
 ```
-🔸 Bütüm “bulutlu”ların sayımı yapılmaktadır ve “bulutlu” adındaki bir sayıcıya atılmaktadır.
+🔸 Calculated counter of cloudy days and assign to a counter called rainy.
 ```
 cloudy = 0
 for i in range(len(data)):
