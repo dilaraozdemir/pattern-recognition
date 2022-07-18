@@ -206,11 +206,12 @@ for i in range(len(data)):
         rainy += 1
 ```
 Bütüm “bulutlu”ların sayımı yapılmaktadır ve “bulutlu” adındaki bir sayıcıya atılmaktadır.
+```
 bulutlu = 0
 for i in range(len(data)):
     if data[i][0] == "B" :
         bulutlu += 1
-
+```
 Bütüm “gunesli evet”lerin sayımı yapılmaktadır ve “gunesliE” adındaki bir sayıcıya atılmaktadır.
 gunesliE = 0
 for i in range(len(data)):
