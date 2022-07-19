@@ -228,10 +228,10 @@ for i in range(len(data)):
         sunnyN += 1 
 ```
 🔸 Calculated counter of whole days has condition cloudy and yes.
-bulutluE = 0
+cloudyY = 0
 for i in range(len(data)):
     if data[i][0] == "B" and data[i][1] == "E" :
-        bulutluE += 1
+        cloudyY += 1
 
 Bütüm “bulutlu hayır”ların sayımı yapılmaktadır ve “bulutluH” adındaki bir sayıcıya atılmaktadır.
 bulutluH = 0
