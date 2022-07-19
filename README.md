@@ -221,11 +221,12 @@ for i in range(len(data)):
 ```
 
 🔸  Calculated counter of whole days has condition sunny and no.
+```
 gunesliH = 0
 for i in range(len(data)):
     if data[i][0] == "G" and data[i][1] == "H" :
         gunesliH += 1 
-
+```
 Bütüm “bulutlu evet”lerin sayımı yapılmaktadır ve “bulutluE” adındaki bir sayıcıya atılmaktadır.
 bulutluE = 0
 for i in range(len(data)):
