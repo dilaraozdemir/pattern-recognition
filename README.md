@@ -213,10 +213,12 @@ for i in range(len(data)):
         cloudy += 1
 ```
 🔸 Calculated counter of whole days has condition sunny and yes.
+```
 gunesliE = 0
 for i in range(len(data)):
     if data[i][0] == "G" and data[i][1] == "E" :
         gunesliE += 1
+```
 
 Bütüm “gunesli hayır”lerin sayımı yapılmaktadır ve “gunesliE” adındaki bir sayıcıya atılmaktadır.
 gunesliH = 0
