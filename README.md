@@ -216,7 +216,7 @@ for i in range(len(data)):
 ```
 sunnyY = 0
 for i in range(len(data)):
-    if data[i][0] == "S" and data[i][1] == "E" :
+    if data[i][0] == "S" and data[i][1] == "Y" :
         sunnyY += 1
 ```
 
