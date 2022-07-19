@@ -234,7 +234,7 @@ for i in range(len(data)):
     if data[i][0] == "C" and data[i][1] == "Y" :
         cloudyY += 1
 ```
-🔸 Bütüm “bulutlu hayır”ların sayımı yapılmaktadır ve “bulutluH” adındaki bir sayıcıya atılmaktadır.
+🔸 Calculated counter of whole days has condition cloudy and no.
 bulutluH = 0
 for i in range(len(data)):
     if data[i][0] == "B" and data[i][1] == "H" :
