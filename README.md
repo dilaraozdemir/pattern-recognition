@@ -227,7 +227,7 @@ for i in range(len(data)):
     if data[i][0] == "S" and data[i][1] == "N" :
         sunnyN += 1 
 ```
-Bütüm “bulutlu evet”lerin sayımı yapılmaktadır ve “bulutluE” adındaki bir sayıcıya atılmaktadır.
+🔸 Calculated counter of whole days has condition cloudy and yes.
 bulutluE = 0
 for i in range(len(data)):
     if data[i][0] == "B" and data[i][1] == "E" :
