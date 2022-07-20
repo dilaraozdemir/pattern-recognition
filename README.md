@@ -242,11 +242,12 @@ for i in range(len(data)):
         cloudyN += 1
 ```
 🔸 Calculated counter of whole days has condition rainy and yes.
-yagmurluE = 0
+```
+rainyY = 0
 for i in range(len(data)):
-    if data[i][0] == "Y" and data[i][1] == "E" :
-        yagmurluE += 1
-        
+    if data[i][0] == "R" and data[i][1] == "Y" :
+        rainyY += 1
+```
 Bütüm “yağmurlu hayır”ların sayımı yapılmaktadır ve “yagmurluH” adındaki bir sayıcıya atılmaktadır.
 yagmurluH = 0
 for i in range(len(data)):
