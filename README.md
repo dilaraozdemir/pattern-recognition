@@ -248,7 +248,7 @@ for i in range(len(data)):
     if data[i][0] == "R" and data[i][1] == "Y" :
         rainyY += 1
 ```
-Bütüm “yağmurlu hayır”ların sayımı yapılmaktadır ve “yagmurluH” adındaki bir sayıcıya atılmaktadır.
+🔸 Calculated counter of whole days has condition rainy and no.
 yagmurluH = 0
 for i in range(len(data)):
     if data[i][0] == "Y" and data[i][1] == "H" :
