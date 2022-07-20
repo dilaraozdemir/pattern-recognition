@@ -257,7 +257,8 @@ for i in range(len(data)):
 ```
 
 🔸 An input taken from user for testing.
-havadurumu = input("Hava durumunu giriniz:\n Güneşli için G\n Yağmurlu için Y \n Bulutlu için B\n")
+
+weather = input("Please input weather:\n Güneşli için G\n Yağmurlu için Y \n Bulutlu için B\n")
 oynama = input("Futbol oynanacak mı?:\n Evet için E\n Hayır için H \n")
 
 Kullanıcıdan alınan değerlere göre her bir durum bağıntısının ortalamaları hesaplandı ve hesaplanan değerler kullanıcıya döndürüldü.
