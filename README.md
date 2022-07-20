@@ -249,11 +249,12 @@ for i in range(len(data)):
         rainyY += 1
 ```
 🔸 Calculated counter of whole days has condition rainy and no.
-yagmurluH = 0
+```
+rainyY = 0
 for i in range(len(data)):
-    if data[i][0] == "Y" and data[i][1] == "H" :
-        yagmurluH += 1
-
+    if data[i][0] == "R" and data[i][1] == "Y" :
+        rainyY += 1
+```
 Kullanıcıdan hava durumu ve merak ettiği oynanma durumu için bir girdi alındı.
 havadurumu = input("Hava durumunu giriniz:\n Güneşli için G\n Yağmurlu için Y \n Bulutlu için B\n")
 oynama = input("Futbol oynanacak mı?:\n Evet için E\n Hayır için H \n")
