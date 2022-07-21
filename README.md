@@ -262,7 +262,7 @@ weather = input("Please input weather:\n S for sunny\n R for rainy\n C for cloud
 oynama = input("Futbol oynanacak mı?:\n Evet için E\n Hayır için H \n")
 ```
 🔸 Each state calculated with input taken from user.
-Kullanıcıdan alınan değerlere göre her bir durum bağıntısının ortalamaları hesaplandı ve hesaplanan değerler kullanıcıya döndürüldü.
+```
 if havadurumu == "G" and oynama == "E":
     print(((gunesliE/evet)*(evet/len(data))) / (gunesli/len(data))) 
 if havadurumu == "G" and oynama == "H":
