@@ -263,10 +263,10 @@ playrate = input("Futbol oynanacak mı?:\n Evet için E\n Hayır için H \n")
 ```
 🔸 Each state calculated with input taken from user.
 ```
-if weather == "G" and playrate == "Y":
+if weather == "S" and playrate == "Y":
     print(((sunnyY/yes)*(yes/len(data))) / (sunny/len(data))) 
-if weather == "G" and oynama == "H":
-    print( (gunesliH/hayir)*(hayir/len(data)) / (gunesli/len(data)) ) 
+if weather == "S" and playrate == "N":
+    print( (sunnyN/no)*(no/len(data)) / (sunny/len(data)) ) 
 if weather == "Y" and oynama == "E":
     print(((yagmurluE/evet)*(evet/len(data))) / (yagmurlu/len(data))) 
 if weather == "Y" and oynama == "H":
