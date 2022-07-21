@@ -259,12 +259,12 @@ for i in range(len(data)):
 🔸 An input taken from user for testing.
 ```
 weather = input("Please input weather:\n S for sunny\n R for rainy\n C for cloudy\n")
-oynama = input("Futbol oynanacak mı?:\n Evet için E\n Hayır için H \n")
+playrate = input("Futbol oynanacak mı?:\n Evet için E\n Hayır için H \n")
 ```
 🔸 Each state calculated with input taken from user.
 ```
-if weather == "G" and oynama == "E":
-    print(((gunesliE/evet)*(evet/len(data))) / (gunesli/len(data))) 
+if weather == "G" and playrate == "Y":
+    print(((sunnyY/yes)*(yes/len(data))) / (sunny/len(data))) 
 if weather == "G" and oynama == "H":
     print( (gunesliH/hayir)*(hayir/len(data)) / (gunesli/len(data)) ) 
 if weather == "Y" and oynama == "E":
