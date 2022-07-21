@@ -257,10 +257,10 @@ for i in range(len(data)):
 ```
 
 🔸 An input taken from user for testing.
-
+```
 weather = input("Please input weather:\n S for sunny\n R for rainy\n C for cloudy\n")
 oynama = input("Futbol oynanacak mı?:\n Evet için E\n Hayır için H \n")
-
+```
 Kullanıcıdan alınan değerlere göre her bir durum bağıntısının ortalamaları hesaplandı ve hesaplanan değerler kullanıcıya döndürüldü.
 if havadurumu == "G" and oynama == "E":
     print(((gunesliE/evet)*(evet/len(data))) / (gunesli/len(data))) 
