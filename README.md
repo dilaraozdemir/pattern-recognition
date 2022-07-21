@@ -267,9 +267,9 @@ if weather == "S" and playrate == "Y":
     print(((sunnyY/yes)*(yes/len(data))) / (sunny/len(data))) 
 if weather == "S" and playrate == "N":
     print( (sunnyN/no)*(no/len(data)) / (sunny/len(data)) ) 
-if weather == "Y" and oynama == "E":
+if weather == "R" and oynama == "E":
     print(((yagmurluE/evet)*(evet/len(data))) / (yagmurlu/len(data))) 
-if weather == "Y" and oynama == "H":
+if weather == "R" and oynama == "H":
     print(((yagmurluH/hayir)*(hayir/len(data))) / (yagmurlu/len(data))) 
 if weather == "B" and oynama == "E":
     print(((bulutluE/evet)*(evet/len(data))) / (bulutlu/len(data))) 
