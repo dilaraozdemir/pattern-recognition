@@ -174,7 +174,7 @@ data = 	[["R","N"], ["R","N"], ["C","Y"], ["S","Y"], ["S","Y"], ["S","N"], ["C",
 
     N = No
 
-🔸 Counter for whole yes number;
+Counter for whole yes number;
 ```
 yes = 0
 for i in range(len(data)):
@@ -182,14 +182,14 @@ for i in range(len(data)):
         yes += 1
 ```
 
-🔸 Counter for whole no number;
+Counter for whole no number;
 ```
 no = 0
 for i in range(len(data)):
     if data[i][1] == "N" :
         no += 1
 ```
-🔸 Counter for whole "sunny" number;
+Counter for whole "sunny" number;
 ```
 sunny= 0
 for i in range(len(data)):
@@ -198,21 +198,21 @@ for i in range(len(data)):
 ```
 
 
-🔸 Calculated counter of rainy days and assign to a counter called rainy.
+Calculated counter of rainy days and assign to a counter called rainy.
 ```
 rainy = 0
 for i in range(len(data)):
     if data[i][0] == "R" :
         rainy += 1
 ```
-🔸 Calculated counter of cloudy days and assign to a counter called cloudy.
+Calculated counter of cloudy days and assign to a counter called cloudy.
 ```
 cloudy = 0
 for i in range(len(data)):
     if data[i][0] == "C" :
         cloudy += 1
 ```
-🔸 Calculated counter of whole days has condition sunny and yes.
+Calculated counter of whole days has condition sunny and yes.
 ```
 sunnyY = 0
 for i in range(len(data)):
@@ -220,35 +220,35 @@ for i in range(len(data)):
         sunnyY += 1
 ```
 
-🔸  Calculated counter of whole days has condition sunny and no.
+Calculated counter of whole days has condition sunny and no.
 ```
 sunnyN = 0
 for i in range(len(data)):
     if data[i][0] == "S" and data[i][1] == "N" :
         sunnyN += 1 
 ```
-🔸 Calculated counter of whole days has condition cloudy and yes.
+Calculated counter of whole days has condition cloudy and yes.
 ```
 cloudyY = 0
 for i in range(len(data)):
     if data[i][0] == "C" and data[i][1] == "Y" :
         cloudyY += 1
 ```
-🔸 Calculated counter of whole days has condition cloudy and no.
+Calculated counter of whole days has condition cloudy and no.
 ```
 cloudyN = 0
 for i in range(len(data)):
     if data[i][0] == "C" and data[i][1] == "N" :
         cloudyN += 1
 ```
-🔸 Calculated counter of whole days has condition rainy and yes.
+Calculated counter of whole days has condition rainy and yes.
 ```
 rainyY = 0
 for i in range(len(data)):
     if data[i][0] == "R" and data[i][1] == "Y" :
         rainyY += 1
 ```
-🔸 Calculated counter of whole days has condition rainy and no.
+Calculated counter of whole days has condition rainy and no.
 ```
 rainyY = 0
 for i in range(len(data)):
