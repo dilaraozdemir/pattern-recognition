@@ -275,7 +275,7 @@ if havadurumu == "B" and oynama == "E":
     print(((bulutluE/evet)*(evet/len(data))) / (bulutlu/len(data))) 
 if havadurumu == "B" and oynama == "H":
     print(((bulutluH/hayir)*(hayir/len(data))) / (bulutlu/len(data)))
-
+```
 ## MULTINOMIAL NAIVE BAYES YÖNTEMİ
 Kategorilerine uygun kelimelerin bulunduğu veriseti tanımlandı.
 dataset = [["Chinese Beijing Chinese", "Ç"],
