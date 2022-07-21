@@ -271,9 +271,9 @@ if weather == "R" and oynama == "E":
     print(((yagmurluE/evet)*(evet/len(data))) / (yagmurlu/len(data))) 
 if weather == "R" and oynama == "H":
     print(((yagmurluH/hayir)*(hayir/len(data))) / (yagmurlu/len(data))) 
-if weather == "B" and oynama == "E":
+if weather == "C" and oynama == "E":
     print(((bulutluE/evet)*(evet/len(data))) / (bulutlu/len(data))) 
-if weather == "B" and oynama == "H":
+if weather == "C" and oynama == "H":
     print(((bulutluH/hayir)*(hayir/len(data))) / (bulutlu/len(data)))
 ```
 ## MULTINOMIAL NAIVE BAYES YÖNTEMİ
