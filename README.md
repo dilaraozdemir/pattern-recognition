@@ -263,17 +263,17 @@ oynama = input("Futbol oynanacak mı?:\n Evet için E\n Hayır için H \n")
 ```
 🔸 Each state calculated with input taken from user.
 ```
-if havadurumu == "G" and oynama == "E":
+if weather == "G" and oynama == "E":
     print(((gunesliE/evet)*(evet/len(data))) / (gunesli/len(data))) 
-if havadurumu == "G" and oynama == "H":
+if weather == "G" and oynama == "H":
     print( (gunesliH/hayir)*(hayir/len(data)) / (gunesli/len(data)) ) 
-if havadurumu == "Y" and oynama == "E":
+if weather == "Y" and oynama == "E":
     print(((yagmurluE/evet)*(evet/len(data))) / (yagmurlu/len(data))) 
-if havadurumu == "Y" and oynama == "H":
+if weather == "Y" and oynama == "H":
     print(((yagmurluH/hayir)*(hayir/len(data))) / (yagmurlu/len(data))) 
-if havadurumu == "B" and oynama == "E":
+if weather == "B" and oynama == "E":
     print(((bulutluE/evet)*(evet/len(data))) / (bulutlu/len(data))) 
-if havadurumu == "B" and oynama == "H":
+if weather == "B" and oynama == "H":
     print(((bulutluH/hayir)*(hayir/len(data))) / (bulutlu/len(data)))
 ```
 ## MULTINOMIAL NAIVE BAYES YÖNTEMİ
