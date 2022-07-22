@@ -68,7 +68,7 @@ print("Weighted vote: Gender = ", data[weights[0][0]][0])
 ```
 ## Principal Component Analysis (PCA)
 
-<img src="/images/pca.png" alt="1994-2000" style="height: 300px; width:400px;"/>
+<img src="/images/pca.png" alt="pca" style="height: 300px; width:400px;"/>
 
 🔸 dataX and dataY determinde manually.
 ```
