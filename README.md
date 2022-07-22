@@ -272,7 +272,7 @@ if weather == "R" and oynama == "Y":
 if weather == "R" and oynama == "N":
     print(((rainyN/no)*(no/len(data))) / (rainy/len(data))) 
 if weather == "C" and oynama == "Y":
-    print(((bulutluE/evet)*(evet/len(data))) / (bulutlu/len(data))) 
+    print(((cloudyY/yes)*(yes/len(data))) / (cloudy/len(data))) 
 if weather == "C" and oynama == "H":
     print(((bulutluH/hayir)*(hayir/len(data))) / (bulutlu/len(data)))
 ```
