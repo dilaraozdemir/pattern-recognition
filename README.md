@@ -167,6 +167,8 @@ plt.show()
 ```
 ## Gaussian Naive Bayes Method
 
+<img src="/images/gaussian.png" alt="1994-2000" style="height: 300px; width:400px;"/>
+
 🔸 The first index of data has been determined as weather and the second one has been playing state of football. 
 ```
 data = 	[["R","N"], ["R","N"], ["C","Y"], ["S","Y"], ["S","Y"], ["S","N"], ["C","Y"], ["R","N"], ["R","Y"], ["S","Y"], ["R","Y"], ["C","Y"], ["C","Y"], ["S","N"]]
