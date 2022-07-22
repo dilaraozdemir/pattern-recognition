@@ -2,7 +2,7 @@
 
 ## K-Nearest Algorithm
 
-<img src="/images/knn.png" alt="1994-2000" style="height: 300px; width:400px;"/>
+<img src="/images/knn.png" alt="k-nearest neighbor" style="height: 300px; width:400px;"/>
 
 
 🔸 A dataset which has categorical data (men-woman) has defined.
