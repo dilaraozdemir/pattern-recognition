@@ -132,7 +132,10 @@ cov_matrix.append(sum)
 ```
 print("Covariance Matrix: ",cov_matrix)
 ```
-## K-means Clustering   
+## K-means Clustering  
+
+<img src="/images/k-means.png" alt="1994-2000" style="height: 300px; width:400px;"/>
+
 🔸 The dataset has 200 exampke and in start position, 4 "center" has been determined.
 ```
 dataset, classes = make_blobs(n_samples=200, n_features=2, centers=4, cluster_std=0.5, random_state=0)
