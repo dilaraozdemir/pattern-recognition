@@ -134,7 +134,7 @@ print("Covariance Matrix: ",cov_matrix)
 ```
 ## K-means Clustering  
 
-<img src="/images/k-means.png" alt="1994-2000" style="height: 300px; width:400px;"/>
+<img src="/images/k-means.png" alt="k-means clustering" style="height: 300px; width:400px;"/>
 
 🔸 The dataset has 200 exampke and in start position, 4 "center" has been determined.
 ```
