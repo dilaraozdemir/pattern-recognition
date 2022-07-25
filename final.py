@@ -67,7 +67,7 @@ def knn():
         print("Plurality vote: Gender = man")
     
     
-    # Ağırlıklı oylama
+    # Weighted Approach
     weights = []
     
     for i in range(0,k):
