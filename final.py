@@ -48,8 +48,8 @@ def knn():
         
     data.sort(key = lambda data: data[3])
     
-    # Kullanıcıdan alınacak K değeri
-    k = input("K değerini giriniz:\n")
+    # K value from user
+    k = input("Please enter K value:\n")
     k = int(k)
     
     # Çoğulcul yaklaşım
