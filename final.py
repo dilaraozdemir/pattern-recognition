@@ -54,7 +54,7 @@ def knn():
     
     # Plurality Approach
     woman = 0
-    erkek = 0
+    man = 0
     for i in range(0,k):
         if data[i][0] == "erkek":
             erkek += 1
