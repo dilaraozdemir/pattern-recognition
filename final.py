@@ -29,7 +29,7 @@ def knn():
     ["woman",165,60]]
     
     
-    # Kullanıcıdan alınacak yeni değer
+    # Inputs from user
     boy = input("Enter height:\n")
     boy = float(boy)
     
