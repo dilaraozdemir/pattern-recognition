@@ -52,8 +52,8 @@ def knn():
     k = input("Please enter K value:\n")
     k = int(k)
     
-    # Çoğulcul yaklaşım
-    kadin = 0
+    # Plurality Approach
+    woman = 0
     erkek = 0
     for i in range(0,k):
         if data[i][0] == "erkek":
