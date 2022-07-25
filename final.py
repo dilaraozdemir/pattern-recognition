@@ -57,9 +57,9 @@ def knn():
     man = 0
     for i in range(0,k):
         if data[i][0] == "erkek":
-            erkek += 1
+            man += 1
         elif data[i][0] == "kadin":
-            kadin += 1
+            womann += 1
     
     if kadin > erkek:
         print("Plurality vote: Gender = kadin")
