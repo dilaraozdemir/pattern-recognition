@@ -56,9 +56,9 @@ def knn():
     woman = 0
     man = 0
     for i in range(0,k):
-        if data[i][0] == "erkek":
+        if data[i][0] == "man":
             man += 1
-        elif data[i][0] == "kadin":
+        elif data[i][0] == "woman":
             womann += 1
     
     if kadin > erkek:
