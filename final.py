@@ -61,10 +61,10 @@ def knn():
         elif data[i][0] == "woman":
             womann += 1
     
-    if kadin > erkek:
-        print("Plurality vote: Gender = kadin")
+    if woman > man:
+        print("Plurality vote: Gender = woman")
     else:
-        print("Plurality vote: Gender = erkek")
+        print("Plurality vote: Gender = man")
     
     
     # Ağırlıklı oylama
