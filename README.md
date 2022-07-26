@@ -285,7 +285,7 @@ if weather == "R" and playrate == "N":
 if weather == "C" and playrate == "Y":
     print(((cloudyY/yes)*(yes/len(data))) / (cloudy/len(data))) 
 if weather == "C" and playrate == "H":
-    print(((bulutluH/hayir)*(hayir/len(data))) / (bulutlu/len(data)))
+    print(((cloudyN/no)*(no/len(data))) / (cloudy/len(data)))
 ```
 ## MULTINOMIAL NAIVE BAYES YÖNTEMİ
 Kategorilerine uygun kelimelerin bulunduğu veriseti tanımlandı.
