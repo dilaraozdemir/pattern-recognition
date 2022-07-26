@@ -295,7 +295,7 @@ dataset = [["Chinese Beijing Chinese", "Ç"],
            ["Chinese Macao Shangai", "Ç"],
             ["Tokyo Japan Chinese", "J"]]         
 ```
-🔸 Dataset has been defined as dataframe and categories column as “Categories”; words column as "Text"  
+🔸 Dataset has been defined as dataframe and categories column as “Categories”; words column as "Text".
 ```
 dataset = pd.DataFrame(dataset)
 dataset.columns = ["Text", "Categories"]
