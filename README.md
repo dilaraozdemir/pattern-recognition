@@ -300,9 +300,10 @@ dataset = [["Chinese Beijing Chinese", "Ç"],
 dataset = pd.DataFrame(dataset)
 dataset.columns = ["Text", "Categories"]
 ```
-Verisetinde bulunan anlamsız kelimelerin çıkarılabilmesi için “stopwords” kullanılmaktadır. 
+🔸 Stopwords method has been used for extracting insignificant words.
+```
 nltk.download('stopwords')
-
+```
 Her bir kelimeler boşlukları silinerek ve büyük harfleri küçük harflere dönüştürülerek birleştirildi. Birleştirilen kelimeler corpus adındaki yapıya atandı ve bu sayede tanımlana yapılabilecek.
 corpus = []
 for i in range(0, 3):
