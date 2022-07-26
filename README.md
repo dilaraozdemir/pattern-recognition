@@ -288,12 +288,13 @@ if weather == "C" and playrate == "H":
     print(((cloudyN/no)*(no/len(data))) / (cloudy/len(data)))
 ```
 ## MULTINOMIAL NAIVE BAYES METHOD
-Kategorilerine uygun kelimelerin bulunduğu veriseti tanımlandı.
+🔸 Words and categories defined.
+```
 dataset = [["Chinese Beijing Chinese", "Ç"],
            ["Chinese Chinese Shangai", "Ç"],
            ["Chinese Macao Shangai", "Ç"],
             ["Tokyo Japan Chinese", "J"]]         
-
+```
 Tanımlanan veriseti “dataframe” olarak tanımlandı ve kelimelin bulunduğu sütun “Text” olarak, kategorilerin olduğu sütun “Categories” olarak tanımlandı.
 dataset = pd.DataFrame(dataset)
 dataset.columns = ["Text", "Categories"]
