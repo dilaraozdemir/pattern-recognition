@@ -334,7 +334,7 @@ def predict_category(s, train=train, model=model):
 input_string = input("Test için bir string giriniz\n") 
 print("Kategori: ",predict_category(input_string))
 
-## BASİT DOĞRUSAL REGRESYON
+## BASİT LINEAR REGRESSION
 Veriler “x” (bağımsız değişken) ve “y” (bağımlı değişken) ikilileri şeklinde tanımlandı.
 data = [[2,8], [6,5], [7,7], [9,4], [8,6]]
 
