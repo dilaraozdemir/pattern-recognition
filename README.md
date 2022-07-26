@@ -287,7 +287,7 @@ if weather == "C" and playrate == "Y":
 if weather == "C" and playrate == "H":
     print(((cloudyN/no)*(no/len(data))) / (cloudy/len(data)))
 ```
-## MULTINOMIAL NAIVE BAYES YÖNTEMİ
+## MULTINOMIAL NAIVE BAYES METHOD
 Kategorilerine uygun kelimelerin bulunduğu veriseti tanımlandı.
 dataset = [["Chinese Beijing Chinese", "Ç"],
            ["Chinese Chinese Shangai", "Ç"],
