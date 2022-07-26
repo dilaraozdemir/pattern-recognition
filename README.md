@@ -295,7 +295,8 @@ dataset = [["Chinese Beijing Chinese", "Ç"],
            ["Chinese Macao Shangai", "Ç"],
             ["Tokyo Japan Chinese", "J"]]         
 ```
-Tanımlanan veriseti “dataframe” olarak tanımlandı ve kelimelin bulunduğu sütun “Text” olarak, kategorilerin olduğu sütun “Categories” olarak tanımlandı.
+🔸 Dataset has been defined as dataframe and categories column as “Categories”; words column as "Text"  
+
 dataset = pd.DataFrame(dataset)
 dataset.columns = ["Text", "Categories"]
 
