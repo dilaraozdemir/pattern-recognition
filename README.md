@@ -305,6 +305,7 @@ dataset.columns = ["Text", "Categories"]
 nltk.download('stopwords')
 ```
 Her bir kelimeler boşlukları silinerek ve büyük harfleri küçük harflere dönüştürülerek birleştirildi. Birleştirilen kelimeler corpus adındaki yapıya atandı ve bu sayede tanımlana yapılabilecek.
+```
 corpus = []
 for i in range(0, 3):
     text = re.sub('[^a-zA-Z]', '', dataset['Text'][i])
@@ -313,7 +314,7 @@ for i in range(0, 3):
     ps = PorterStemmer()
     text = ''.join(text)
     corpus.append(text)
-
+```
 Scikit-learn tarafından sunulan “CountVectorizer” ile bir doküman kolestiyonu bir terim vektörüne dönüştürülür.
 cv = CountVectorizer(max_features = 1500)
 
