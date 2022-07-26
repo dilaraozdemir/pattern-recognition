@@ -296,10 +296,10 @@ dataset = [["Chinese Beijing Chinese", "Ç"],
             ["Tokyo Japan Chinese", "J"]]         
 ```
 🔸 Dataset has been defined as dataframe and categories column as “Categories”; words column as "Text"  
-
+```
 dataset = pd.DataFrame(dataset)
 dataset.columns = ["Text", "Categories"]
-
+```
 Verisetinde bulunan anlamsız kelimelerin çıkarılabilmesi için “stopwords” kullanılmaktadır. 
 nltk.download('stopwords')
 
