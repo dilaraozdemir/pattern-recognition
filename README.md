@@ -278,13 +278,13 @@ if weather == "S" and playrate == "Y":
     print(((sunnyY/yes)*(yes/len(data))) / (sunny/len(data))) 
 if weather == "S" and playrate == "N":
     print( (sunnyN/no)*(no/len(data)) / (sunny/len(data)) ) 
-if weather == "R" and oynama == "Y":
+if weather == "R" and playrate == "Y":
     print(((rainyY/yes)*(yes/len(data))) / (rainy/len(data))) 
-if weather == "R" and oynama == "N":
+if weather == "R" and playrate == "N":
     print(((rainyN/no)*(no/len(data))) / (rainy/len(data))) 
-if weather == "C" and oynama == "Y":
+if weather == "C" and playrate == "Y":
     print(((cloudyY/yes)*(yes/len(data))) / (cloudy/len(data))) 
-if weather == "C" and oynama == "H":
+if weather == "C" and playrate == "H":
     print(((bulutluH/hayir)*(hayir/len(data))) / (bulutlu/len(data)))
 ```
 ## MULTINOMIAL NAIVE BAYES YÖNTEMİ
