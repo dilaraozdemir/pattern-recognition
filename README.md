@@ -356,7 +356,7 @@ for i in range(len(data)):
 
 xort /= len(data)
 yort /= len(data)
-
+```
 “b” (regresyon katsayısı) daha önce hesaplanan değerler kullanılarak hesaplanmaktadır.
 
 b = (xy - len(data) * xort * yort ) / (xsqr - len(data)*(xort**2))
