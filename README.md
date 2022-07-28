@@ -315,11 +315,11 @@ for i in range(0, 3):
     text = ''.join(text)
     corpus.append(text)
 ```
-Scikit-learn tarafından sunulan “CountVectorizer” ile bir doküman kolestiyonu bir terim vektörüne dönüştürülür.
+🔸Scikit-learn tarafından sunulan “CountVectorizer” ile bir doküman kolestiyonu bir terim vektörüne dönüştürülür.
 ```
 cv = CountVectorizer(max_features = 1500)
 ```
-Verisetinde tanımlanan metinler  X olarak ve kategoriler y yani hedef olarak tanımlanmaktadır.
+🔸Verisetinde tanımlanan metinler  X olarak ve kategoriler y yani hedef olarak tanımlanmaktadır.
 X = dataset.iloc[:, 0].values
 y = dataset.iloc[:, 1].values
 train = X
