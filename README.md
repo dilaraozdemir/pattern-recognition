@@ -339,9 +339,11 @@ print("Kategori: ",predict_category(input_string))
 ```
 ## BASİT LINEAR REGRESSION
 Veriler “x” (bağımsız değişken) ve “y” (bağımlı değişken) ikilileri şeklinde tanımlandı.
+```
 data = [[2,8], [6,5], [7,7], [9,4], [8,6]]
-
+```
 “xy” değişkenine “x” ve “y” değerlerinin çarpımı atandı. “xort” ve “yort” değerlerine her bir x değerlerinin ortalaması ve y değerlernin ortalaması atandı. 
+```
 xort = 0
 yort =0
 xy = 0
