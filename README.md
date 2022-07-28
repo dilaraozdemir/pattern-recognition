@@ -326,9 +326,10 @@ y = dataset.iloc[:, 1].values
 train = X
 ```
 🔸 Eğitim yapılabilmesi için model yapılandırması yapılır ve tanımlanan X ve y değerleri modele fit edilir.
+```
 model = make_pipeline(TfidfVectorizer(), MultinomialNB())
 model.fit(X, y)
-
+```
 Tahmin yapılabilmesi için bir fonksiyon tanımlanır. Bu sayede kullanıcıdan alınan bilgiyi fonksyiona parametre olarak gönderdiğimizde bize bilginin hangi kategoriye ait olduğu değeri döndürülür.
 def predict_category(s, train=train, model=model):
     return model.predict([s]
