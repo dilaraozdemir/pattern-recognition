@@ -2,7 +2,7 @@
 
 ## K-Nearest Algorithm
 
-<img src="/images/knn.png" alt="k-nearest neighbor" style="height: 300px; width:400px;"/>
+<img src="./images/knn.png" alt="k-nearest neighbor" style="height: 300px; width:400px;"/>
 
 
 🔸 A dataset which has categorical data (men-woman) has defined.
@@ -68,7 +68,7 @@ print("Weighted vote: Gender = ", data[weights[0][0]][0])
 ```
 ## Principal Component Analysis (PCA)
 
-<img src="/images/pca.png" alt="pca" style="height: 300px; width:400px;"/>
+<img src="./images/pca.png" alt="pca" style="height: 300px; width:400px;"/>
 
 🔸 dataX and dataY determinde manually.
 ```
@@ -134,7 +134,7 @@ print("Covariance Matrix: ",cov_matrix)
 ```
 ## K-means Clustering  
 
-<img src="/images/k-means.png" alt="k-means clustering" style="height: 300px; width:400px;"/>
+<img src="./images/k-means.png" alt="k-means clustering" />
 
 🔸 The dataset has 200 exampke and in start position, 4 "center" has been determined.
 ```
@@ -167,7 +167,7 @@ plt.show()
 ```
 ## Gaussian Naive Bayes Method
 
-<img src="/images/gaussian.png" alt="gaussian" style="height: 300px; width:400px;"/>
+<img src="./images/gaussian.png" alt="gaussian" style="height: 300px; width:400px;"/>
 
 🔸 The first index of data has been determined as weather and the second one has been playing state of football. 
 ```
