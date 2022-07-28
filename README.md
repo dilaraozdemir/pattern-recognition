@@ -320,10 +320,11 @@ for i in range(0, 3):
 cv = CountVectorizer(max_features = 1500)
 ```
 🔸 Verisetinde tanımlanan metinler  X olarak ve kategoriler y yani hedef olarak tanımlanmaktadır.
+```
 X = dataset.iloc[:, 0].values
 y = dataset.iloc[:, 1].values
 train = X
-
+```
 🔸 Eğitim yapılabilmesi için model yapılandırması yapılır ve tanımlanan X ve y değerleri modele fit edilir.
 model = make_pipeline(TfidfVectorizer(), MultinomialNB())
 model.fit(X, y)
