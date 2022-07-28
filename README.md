@@ -330,12 +330,13 @@ train = X
 model = make_pipeline(TfidfVectorizer(), MultinomialNB())
 model.fit(X, y)
 ```
-Tahmin yapılabilmesi için bir fonksiyon tanımlanır. Bu sayede kullanıcıdan alınan bilgiyi fonksyiona parametre olarak gönderdiğimizde bize bilginin hangi kategoriye ait olduğu değeri döndürülür.
+🔸 Tahmin yapılabilmesi için bir fonksiyon tanımlanır. Bu sayede kullanıcıdan alınan bilgiyi fonksyiona parametre olarak gönderdiğimizde bize bilginin hangi kategoriye ait olduğu değeri döndürülür.
+```
 def predict_category(s, train=train, model=model):
     return model.predict([s]
 input_string = input("Test için bir string giriniz\n") 
 print("Kategori: ",predict_category(input_string))
-
+```
 ## BASİT LINEAR REGRESSION
 Veriler “x” (bağımsız değişken) ve “y” (bağımlı değişken) ikilileri şeklinde tanımlandı.
 data = [[2,8], [6,5], [7,7], [9,4], [8,6]]
