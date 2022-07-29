@@ -304,7 +304,7 @@ dataset.columns = ["Text", "Categories"]
 ```
 nltk.download('stopwords')
 ```
-🔸 Each word has been merged without spaces and uppercases. Birleştirilen kelimeler corpus adındaki yapıya atandı ve bu sayede tanımlana yapılabilecek.
+🔸 Each word has been merged without spaces and uppercases. Merged words assigned to corpus variable and as a result of that defining process will be completed. Birleştirilen kelimeler corpus adındaki yapıya atandı ve bu sayede tanımlana yapılabilecek.
 ```
 corpus = []
 for i in range(0, 3):
