@@ -336,7 +336,7 @@ model.fit(X, y)
 def predict_category(s, train=train, model=model):
     return model.predict([s]
 input_string = input("Enter as string for testing\n") 
-print("Kategori: ",predict_category(input_string))
+print("Category: ",predict_category(input_string))
 ```
 ## BASİT LINEAR REGRESSION
 Veriler “x” (bağımsız değişken) ve “y” (bağımlı değişken) ikilileri şeklinde tanımlandı.
