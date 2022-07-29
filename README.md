@@ -316,7 +316,8 @@ for i in range(0, 3):
     text = ''.join(text)
     corpus.append(text)
 ```
-🔸 Scikit-learn tarafından sunulan “CountVectorizer” ile bir doküman kolestiyonu bir terim vektörüne dönüştürülür.
+🔸 "CountVectorizer" that presents from sckit-learn library.
+Scikit-learn tarafından sunulan “CountVectorizer” ile bir doküman kolestiyonu bir terim vektörüne dönüştürülür.
 ```
 cv = CountVectorizer(max_features = 1500)
 ```
