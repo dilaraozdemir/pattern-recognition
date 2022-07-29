@@ -331,7 +331,7 @@ train = X
 model = make_pipeline(TfidfVectorizer(), MultinomialNB())
 model.fit(X, y)
 ```
-🔸 A function called "predict_category" defined for prediction stage. Therefore, when input from user has been sent as parameter, the function returns category info.
+🔸 A function called "product_category" has been defined for prediction stage. Thus, when input from user has been sent as parameter, the function returns category info.
 ```
 def predict_category(s, train=train, model=model):
     return model.predict([s]
