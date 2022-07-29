@@ -317,7 +317,6 @@ for i in range(0, 3):
     corpus.append(text)
 ```
 🔸 A documentation collection has been converted to a term with "CountVectorizer" that presents from sckit-learn library.
-Scikit-learn tarafından sunulan “CountVectorizer” ile bir doküman kolestiyonu bir terim vektörüne dönüştürülür.
 ```
 cv = CountVectorizer(max_features = 1500)
 ```
