@@ -321,13 +321,12 @@ for i in range(0, 3):
 cv = CountVectorizer(max_features = 1500)
 ```
 🔸 Texts in dataset has been defined as X variable and categories has been defined as y which represents target.
-Verisetinde tanımlanan metinler  X olarak ve kategoriler y yani hedef olarak tanımlanmaktadır.
 ```
 X = dataset.iloc[:, 0].values
 y = dataset.iloc[:, 1].values
 train = X
 ```
-🔸 Eğitim yapılabilmesi için model yapılandırması yapılır ve tanımlanan X ve y değerleri modele fit edilir.
+🔸 Model configuration processes has been done for training stage and defining X and y variables has been fitted to model.
 ```
 model = make_pipeline(TfidfVectorizer(), MultinomialNB())
 model.fit(X, y)
