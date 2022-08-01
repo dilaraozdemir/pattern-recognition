@@ -358,7 +358,7 @@ for i in range(len(data)):
 xort /= len(data)
 yort /= len(data)
 ```
-🔸"b" (regression coefficient) has been calculated with previous results.
+🔸 "b" (regression coefficient) has been calculated with previous results.
 ```
 b = (xy - len(data) * xort * yort ) / (xsqr - len(data)*(xort**2))
 ```
