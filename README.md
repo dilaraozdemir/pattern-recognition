@@ -343,6 +343,7 @@ Data has been defined as "x" (independent variable) and "y" (dependent variable)
 ```
 data = [[2,8], [6,5], [7,7], [9,4], [8,6]]
 ```
+Multiplication of "x" and "y" has been assigned to "xy" variable.
 “xy” değişkenine “x” ve “y” değerlerinin çarpımı atandı. “xort” ve “yort” değerlerine her bir x değerlerinin ortalaması ve y değerlernin ortalaması atandı. 
 ```
 xort = 0
