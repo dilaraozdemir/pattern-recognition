@@ -339,11 +339,11 @@ input_string = input("Enter as string for testing\n")
 print("Category: ",predict_category(input_string))
 ```
 ## SIMPLE LINEAR REGRESSION
-Data has been defined as "x" (independent variable) and "y" (dependent variable).
+🔸 Data has been defined as "x" (independent variable) and "y" (dependent variable).
 ```
 data = [[2,8], [6,5], [7,7], [9,4], [8,6]]
 ```
-Multiplication of "x" and "y" has been assigned to "xy" variable. Average values of each x and y values has been assigned respectively to "xort" and "yort" variables.
+🔸 Multiplication of "x" and "y" has been assigned to "xy" variable. Average values of each x and y values has been assigned respectively to "xort" and "yort" variables.
 ```
 xort = 0
 yort =0
