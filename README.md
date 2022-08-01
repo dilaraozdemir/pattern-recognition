@@ -359,9 +359,9 @@ xort /= len(data)
 yort /= len(data)
 ```
 "b" (regression coefficient) has been calculated with previous results.
-
+```
 b = (xy - len(data) * xort * yort ) / (xsqr - len(data)*(xort**2))
-
+```
 “a” (sabit) değeri de hesaplanan “b” katsayısı sayesinde hesaplanmaktadır.
 a = yort - b*xort
 
