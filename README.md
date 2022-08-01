@@ -338,7 +338,7 @@ def predict_category(s, train=train, model=model):
 input_string = input("Enter as string for testing\n") 
 print("Category: ",predict_category(input_string))
 ```
-## BASİT LINEAR REGRESSION
+## SIMPLE LINEAR REGRESSION
 Data has been defined as "x" (independent variable) and "y" (dependent variable).
 ```
 data = [[2,8], [6,5], [7,7], [9,4], [8,6]]
