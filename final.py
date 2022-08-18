@@ -273,7 +273,7 @@ def gaussiannaivebayes():
     
     weather = input("Hava durumunu giriniz:\n Güneşli için G\n Yağmurlu için Y \n Bulutlu için B\n")
     
-    oynama = input("Futbol oynanacak mı?:\n Evet için E\n Hayır için H \n")
+    playrate = input("Futbol oynanacak mı?:\n Evet için E\n Hayır için H \n")
     
     print("\nOynama oranı\n")
     if havadurumu == "G" and oynama == "E":
