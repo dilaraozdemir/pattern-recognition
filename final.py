@@ -152,7 +152,7 @@ def pca():
     
     cov_matrix.append(sum)
     
-    # X,Y
+    # X, Y
     sum = 0.0
     for i in range(len(dataX)):
         sum = sum +(dataX[i] * dataY[i])
