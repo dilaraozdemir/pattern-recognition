@@ -279,7 +279,7 @@ def gaussiannaivebayes():
     if weather == "G" and oynama == "E":
         print(((gunesliE/evet)*(evet/len(data))) / (gunesli/len(data)))
         
-    if havadurumu == "G" and oynama == "H":
+    if weather == "G" and oynama == "H":
         print( (gunesliH/hayir)*(hayir/len(data)) / (gunesli/len(data)) )
         
     if havadurumu == "Y" and oynama == "E":
