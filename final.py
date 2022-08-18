@@ -96,7 +96,7 @@ def kmeans():
     plt.show()
     
     model = KMeans()
-    
+
     # visualizer = KElbowVisualizer(model, k=(1,12)).fit(df)
     
     
@@ -143,7 +143,7 @@ def pca():
     for i in range(len(dataY)):
         dataY[i] = dataY[i] - meanY
     
-    # X,X
+    # X, X
     sum = 0.0
     for i in range(len(dataX)):
         sum = sum +(dataX[i] * dataX[i])
