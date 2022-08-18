@@ -12,6 +12,11 @@ import nltk
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.cluster import KMeans
+from matplotlib import pyplot as plt
+from sklearn.datasets.samples_generator import make_blobs
+from collections import Counter
+import seaborn as sns
 # KNN
 def knn():
     # Data creating manually
@@ -80,11 +85,7 @@ def knn():
 
 
 def kmeans():
-    from sklearn.cluster import KMeans
-    from matplotlib import pyplot as plt
-    from sklearn.datasets.samples_generator import make_blobs
-    from collections import Counter
-    import seaborn as sns
+    
     
     dataset, classes = make_blobs(n_samples=200, n_features=2, centers=4, cluster_std=0.5, random_state=0)
     # make as panda dataframe for easy understanding
