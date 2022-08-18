@@ -35,7 +35,7 @@ def knn():
     
     
     # Inputs from user
-    boy = input("Enter height:\n")
+    boy = input("Enter height: \n")
     boy = float(boy)
     
     kilo = input("Enter weight:\n")
