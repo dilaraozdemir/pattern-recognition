@@ -96,6 +96,7 @@ def kmeans():
     plt.show()
     
     model = KMeans()
+    
     # visualizer = KElbowVisualizer(model, k=(1,12)).fit(df)
     
     
