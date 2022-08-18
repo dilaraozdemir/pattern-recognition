@@ -271,7 +271,7 @@ def gaussiannaivebayes():
             yagmurluH += 1
     
     
-    havadurumu = input("Hava durumunu giriniz:\n Güneşli için G\n Yağmurlu için Y \n Bulutlu için B\n")
+    weather = input("Hava durumunu giriniz:\n Güneşli için G\n Yağmurlu için Y \n Bulutlu için B\n")
     
     oynama = input("Futbol oynanacak mı?:\n Evet için E\n Hayır için H \n")
     
