@@ -95,7 +95,7 @@ def kmeans():
     plt.show()
     
     model = KMeans()
-    #visualizer = KElbowVisualizer(model, k=(1,12)).fit(df)
+    # visualizer = KElbowVisualizer(model, k=(1,12)).fit(df)
     
     
     kmeans = KMeans(n_clusters=4, init='k-means++', random_state=0).fit(df)
