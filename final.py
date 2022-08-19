@@ -220,8 +220,8 @@ def gaussiannaivebayes():
         if data[i][0] == "S" :
             sunny += 1
     
-    # Tüm Yağmurlular
-    yagmurlu = 0
+    # All rainy
+    rainy = 0
     for i in range(len(data)):
         if data[i][0] == "Y" :
             yagmurlu += 1
