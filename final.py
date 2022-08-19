@@ -185,8 +185,8 @@ def pca():
 
 # Gaussian Naive Bayes
 def gaussiannaivebayes():
-    data = 	[["Y","H"],
-        ["Y","H"],
+    data = 	[["R","H"],
+        ["R","H"],
         ["B","E"],
         ["G","E"],
         ["G","E"],
