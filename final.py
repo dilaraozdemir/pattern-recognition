@@ -229,7 +229,7 @@ def gaussiannaivebayes():
     # All cloudy condition
     cloudy = 0
     for i in range(len(data)):
-        if data[i][0] == "B" :
+        if data[i][0] == "C" :
             cloudy += 1
     
     
