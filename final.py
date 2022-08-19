@@ -208,11 +208,11 @@ def gaussiannaivebayes():
         if data[i][1] == "Y" :
             yes += 1
     
-    # Tüm hayırlar
-    hayir = 0
+    # All no condition
+    no = 0
     for i in range(len(data)):
-        if data[i][1] == "H" :
-            hayir += 1
+        if data[i][1] == "N" :
+            no += 1
             
     # Tüm güneşliler
     gunesli= 0
