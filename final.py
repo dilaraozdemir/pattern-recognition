@@ -217,7 +217,7 @@ def gaussiannaivebayes():
     # All sunny condition
     sunny= 0
     for i in range(len(data)):
-        if data[i][0] == "G" :
+        if data[i][0] == "S" :
             sunny += 1
     
     # Tüm Yağmurlular
