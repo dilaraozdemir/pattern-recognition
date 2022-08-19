@@ -187,7 +187,7 @@ def pca():
 def gaussiannaivebayes():
     data = 	[["R","H"],
         ["R","H"],
-        ["B","E"],
+        ["C","E"],
         ["G","E"],
         ["G","E"],
         ["G","H"],
