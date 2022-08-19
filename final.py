@@ -17,6 +17,7 @@ from matplotlib import pyplot as plt
 from sklearn.datasets.samples_generator import make_blobs
 from collections import Counter
 import seaborn as sns
+import math
 # KNN
 def knn():
     # Data creating manually
@@ -188,17 +189,17 @@ def gaussiannaivebayes():
     data = 	[["R","H"],
         ["R","H"],
         ["C","E"],
-        ["G","E"],
-        ["G","E"],
-        ["G","H"],
+        ["S","E"],
+        ["S","E"],
+        ["S","H"],
         ["B","E"],
         ["Y","H"],
         ["Y","E"],
-        ["G","E"],
+        ["S","E"],
         ["Y","E"],
         ["B","E"],
         ["B","E"],
-        ["G","H"]]
+        ["S","H"]]
     
     
     # Tüm evetler
