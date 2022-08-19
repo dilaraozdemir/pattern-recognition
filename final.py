@@ -220,7 +220,7 @@ def gaussiannaivebayes():
         if data[i][0] == "S" :
             sunny += 1
     
-    # All rainy
+    # All rainy condition
     rainy = 0
     for i in range(len(data)):
         if data[i][0] == "R" :
