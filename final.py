@@ -203,10 +203,10 @@ def gaussiannaivebayes():
     
     
     # All yes condition
-    evet = 0
+    yes = 0
     for i in range(len(data)):
-        if data[i][1] == "E" :
-            evet += 1
+        if data[i][1] == "Y" :
+            yes += 1
     
     # Tüm hayırlar
     hayir = 0
