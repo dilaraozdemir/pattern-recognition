@@ -202,7 +202,7 @@ def gaussiannaivebayes():
         ["S","N"]]
     
     
-    # Tüm evetler
+    # All yes condition
     evet = 0
     for i in range(len(data)):
         if data[i][1] == "E" :
