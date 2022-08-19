@@ -223,7 +223,7 @@ def gaussiannaivebayes():
     # All rainy
     rainy = 0
     for i in range(len(data)):
-        if data[i][0] == "Y" :
+        if data[i][0] == "R" :
             yagmurlu += 1
             
     # Tüm Bulutlular
