@@ -215,10 +215,10 @@ def gaussiannaivebayes():
             no += 1
             
     # All sunny condition
-    gunesli= 0
+    sunny= 0
     for i in range(len(data)):
         if data[i][0] == "G" :
-            gunesli += 1
+            sunny += 1
     
     # Tüm Yağmurlular
     yagmurlu = 0
