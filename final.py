@@ -227,7 +227,7 @@ def gaussiannaivebayes():
             rainy += 1
             
     # All cloudy condition
-    bulutlu = 0
+    cloudy = 0
     for i in range(len(data)):
         if data[i][0] == "B" :
             bulutlu += 1
