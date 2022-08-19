@@ -214,7 +214,7 @@ def gaussiannaivebayes():
         if data[i][1] == "N" :
             no += 1
             
-    # Tüm güneşliler
+    # All sunny condition
     gunesli= 0
     for i in range(len(data)):
         if data[i][0] == "G" :
