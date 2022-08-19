@@ -197,9 +197,9 @@ def gaussiannaivebayes():
         ["R","Y"],
         ["S","N"],
         ["R","Y"],
-        ["C","E"],
-        ["C","E"],
-        ["S","H"]]
+        ["C","Y"],
+        ["C","Y"],
+        ["S","N"]]
     
     
     # Tüm evetler
