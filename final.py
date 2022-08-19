@@ -226,7 +226,7 @@ def gaussiannaivebayes():
         if data[i][0] == "R" :
             rainy += 1
             
-    # Tüm Bulutlular
+    # All cloudy condition
     bulutlu = 0
     for i in range(len(data)):
         if data[i][0] == "B" :
