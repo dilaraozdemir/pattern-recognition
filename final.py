@@ -230,7 +230,7 @@ def gaussiannaivebayes():
     cloudy = 0
     for i in range(len(data)):
         if data[i][0] == "B" :
-            bulutlu += 1
+            cloudy += 1
     
     
     
