@@ -371,9 +371,10 @@ a = yort - b*xort
 input_string = input("Enter x value for Y value prediction \n")
 ```
 🔸 Input value has been found using calculation equation. 
+```
 y = a + b * int(input_string)
-print("Y değeri: ",y)
-
+print("Y value: ",y)
+```
 Son olarak da hatalar bulunarak gerçek değer denkleminin hesaplanması yapıldı ve “y” gerçek değeri yazdırıldı.
 y_head = []
 for i in range(len(data)):
