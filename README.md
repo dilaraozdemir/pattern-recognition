@@ -371,7 +371,6 @@ a = yort - b*xort
 input_string = input("Enter x value for Y value prediction \n")
 ```
 🔸 Input value has been found using calculation equation. 
-Girilen değer, oluşturulan hesaplama denklemi kullanılarak bulunuyor.
 y = a + b * int(input_string)
 print("Y değeri: ",y)
 
