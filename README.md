@@ -366,7 +366,8 @@ b = (xy - len(data) * xort * yort ) / (xsqr - len(data)*(xort**2))
 ```
 a = yort - b*xort
 ```
-🔸 Kullanıcıdan hedef tahmini yapılabilmesi için bir değer alınmaktadır. 
+🔸 A value has been taken from user for target prediction. 
+Kullanıcıdan hedef tahmini yapılabilmesi için bir değer alınmaktadır. 
 input_string = input("Y tahmini yapabilmek için x değerini giriniz \n")
 
 Girilen değer, oluşturulan hesaplama denklemi kullanılarak bulunuyor.
