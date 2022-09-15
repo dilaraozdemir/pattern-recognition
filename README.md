@@ -363,8 +363,9 @@ yort /= len(data)
 b = (xy - len(data) * xort * yort ) / (xsqr - len(data)*(xort**2))
 ```
 “a” (sabit) değeri de hesaplanan “b” katsayısı sayesinde hesaplanmaktadır.
+```
 a = yort - b*xort
-
+```
 Kullanıcıdan hedef tahmini yapılabilmesi için bir değer alınmaktadır. 
 input_string = input("Y tahmini yapabilmek için x değerini giriniz \n")
 
