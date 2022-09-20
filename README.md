@@ -362,7 +362,7 @@ yort /= len(data)
 ```
 b = (xy - len(data) * xort * yort ) / (xsqr - len(data)*(xort**2))
 ```
-🔸 “a” (constant) value can be calculated with "b" (coefficient.
+🔸 “a” (constant) value can be calculated with "b" (regression coefficient).
 ```
 a = yort - b*xort
 ```
