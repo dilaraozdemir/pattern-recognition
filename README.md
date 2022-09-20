@@ -390,5 +390,6 @@ for i in range(len(data)):
 print("Gerçek değer denklemi = ",a,"+",b,"*","(x)","+",s)
 gercek_deger = a+b*int(input_string)+s
 print("\nGerçek değer: ",gercek_deger)
+```
 
 
