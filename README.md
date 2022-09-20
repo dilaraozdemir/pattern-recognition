@@ -375,7 +375,7 @@ input_string = input("Enter x value for Y value prediction \n")
 y = a + b * int(input_string)
 print("Y value: ",y)
 ```
-🔸 Ground truth
+🔸 Ground truth value equation was calculated with error.
 Son olarak da hatalar bulunarak gerçek değer denkleminin hesaplanması yapıldı ve “y” gerçek değeri yazdırıldı.
 y_head = []
 for i in range(len(data)):
