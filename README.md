@@ -387,7 +387,7 @@ for i in range(len(data)):
         top += ((data[i][1] - y_head[i]) **2)        
         s = (top/(len(data) -2)) ** (1/2)
     
-print("Gerçek değer denklemi = ",a,"+",b,"*","(x)","+",s)
+print("Truth value equation = ",a,"+",b,"*","(x)","+",s)
 gercek_deger = a+b*int(input_string)+s
 print("\nGerçek değer: ",gercek_deger)
 ```
