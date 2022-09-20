@@ -375,8 +375,8 @@ input_string = input("Enter x value for Y value prediction \n")
 y = a + b * int(input_string)
 print("Y value: ",y)
 ```
-🔸 True value equation was calculated with error differences. "y" true value
-Son olarak da hatalar bulunarak gerçek değer denkleminin hesaplanması yapıldı ve “y” gerçek değeri yazdırıldı.
+🔸 True value equation was calculated with error differences. "y" true value printed.
+```
 y_head = []
 for i in range(len(data)):
     appending = a + b * data[i][0]
@@ -386,6 +386,7 @@ for i in range(len(data)):
     if len(data) < 30:
         top += ((data[i][1] - y_head[i]) **2)        
         s = (top/(len(data) -2)) ** (1/2)
+    
 print("Gerçek değer denklemi = ",a,"+",b,"*","(x)","+",s)
 gercek_deger = a+b*int(input_string)+s
 print("\nGerçek değer: ",gercek_deger)
