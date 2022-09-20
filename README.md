@@ -362,7 +362,7 @@ yort /= len(data)
 ```
 b = (xy - len(data) * xort * yort ) / (xsqr - len(data)*(xort**2))
 ```
-🔸 “a” (sabit) değeri de hesaplanan “b” katsayısı sayesinde hesaplanmaktadır.
+🔸 “a” (constant) value can be calculated with "b" coefficient
 ```
 a = yort - b*xort
 ```
@@ -386,7 +386,6 @@ for i in range(len(data)):
     if len(data) < 30:
         top += ((data[i][1] - y_head[i]) **2)        
         s = (top/(len(data) -2)) ** (1/2)
-    
 print("Truth value equation = ",a,"+",b,"*","(x)","+",s)
 true_value = a+b*int(input_string)+s
 print("\nTrue value: ",true_value)
