@@ -388,8 +388,8 @@ for i in range(len(data)):
         s = (top/(len(data) -2)) ** (1/2)
     
 print("Truth value equation = ",a,"+",b,"*","(x)","+",s)
-gercek_deger = a+b*int(input_string)+s
-print("\nGerçek değer: ",gercek_deger)
+true_value = a+b*int(input_string)+s
+print("\nTrue value: ",true_value)
 ```
 
 
