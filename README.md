@@ -40,7 +40,7 @@ k = input("Please enter k value:\n")
 k = int(k)
 ```
 
-🔸 Here, calculations has been done with two diferent approaches:
+Here, calculations has been done with two diferent approaches:
 
 * **Plurality Vote Approach:** Smallest values has been choose according to k value. Which categories of chosen one was more than others, this category determined as predicted category.
 
