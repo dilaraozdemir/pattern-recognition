@@ -93,7 +93,7 @@ for i in range(len(dataX)):
 for i in range(len(dataY)):
     dataY[i] = dataY[i] - meanY
 ```
-🔸 X,X; X,Y; Y,X; Y,Y values has been calculated for “covariance matrix” components and each value has been assigned its related component.
+X,X; X,Y; Y,X; Y,Y values has been calculated for “covariance matrix” components and each value has been assigned its related component.
 
 
 * X,X
