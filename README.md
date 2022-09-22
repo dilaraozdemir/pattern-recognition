@@ -70,7 +70,7 @@ print("Weighted vote: Gender = ", data[weights[0][0]][0])
 
 <img src="./images/pca.png" alt="pca" style="height: 300px; width:400px;"/>
 
-🔸 dataX and dataY determinde manually.
+dataX and dataY determinde manually.
 ```
 dataX = 	[2.5,0.5,2.2,1.9,3.1,2.3,2,1,1.5,1.1]
 
