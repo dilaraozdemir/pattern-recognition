@@ -140,7 +140,7 @@ The dataset has 200 exampke and in start position, 4 "center" has been determine
 ```
 dataset, classes = make_blobs(n_samples=200, n_features=2, centers=4, cluster_std=0.5, random_state=0)
 ```
-🔸 Columns of dataset, has 200 random examples, has been determined as "var1" and "var2".
+Columns of dataset, has 200 random examples, has been determined as "var1" and "var2".
 ```
 df = pd.DataFrame(dataset, columns=['var1', 'var2'])
 sns.scatterplot(data=df, x="var1", y="var2")
