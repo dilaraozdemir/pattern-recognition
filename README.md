@@ -33,7 +33,7 @@ for i in range(len(new)):
 data.sort(key = lambda data: data[3])
 ```
 
-🔸 An input refers k value requested from user.
+An input refers k value requested from user.
 
 ```
 k = input("Please enter k value:\n")
