@@ -18,7 +18,7 @@ weight = input("Enter weight: \n")
 weight = float(weight) 
 new = [height,weight]
 ```
-🔸 A function has been created appropriate to dataset for calculate the eucledian distance. In here, input from user and dataset has been used as a parameter of function. In function,  differences beetween requested input from user and dataset rows has been calculated and taken its square root. As a result of this calculations, euclidian distance has been found.
+A function has been created appropriate to dataset for calculate the eucledian distance. In here, input from user and dataset has been used as a parameter of function. In function,  differences beetween requested input from user and dataset rows has been calculated and taken its square root. As a result of this calculations, euclidian distance has been found.
 
 ```
 def euclidean_distance(data,new):
