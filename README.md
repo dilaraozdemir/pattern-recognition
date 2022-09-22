@@ -147,11 +147,11 @@ sns.scatterplot(data=df, x="var1", y="var2")
 plt.show()
 ```
 
-🔸 K-means model has been determined. 
+K-means model has been determined. 
 ```
 model = KMeans()
 ```
-🔸 Dataframe that has been created with 4 clusters assign to the model with different parameters.
+Dataframe that has been created with 4 clusters assign to the model with different parameters.
 ```
 kmeans = KMeans(n_clusters=4, init='k-means++', random_state=0).fit(df)
 Counter(kmeans.labels_)
