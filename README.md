@@ -25,7 +25,7 @@ def euclidean_distance(data,new):
  distance = ((data[1] - new[0]) ** 2) + ((data[2] - new[1]) ** 2)
     return math.sqrt(distance)
 ```
-🔸 A new list has been created. Created list has been defined as data = [“kategori”, “boy”, “kilo”, “girilen değer ile öklit uzaklığı”]. And then, this list has been sorted by distances.
+A new list has been created. Created list has been defined as data = [“kategori”, “boy”, “kilo”, “girilen değer ile öklit uzaklığı”]. And then, this list has been sorted by distances.
 
 ```
 for i in range(len(new)):
