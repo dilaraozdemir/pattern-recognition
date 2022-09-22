@@ -76,7 +76,7 @@ dataX = 	[2.5,0.5,2.2,1.9,3.1,2.3,2,1,1.5,1.1]
 
 dataY = 	[2.4,0.7,2.9,2.2,3,2.7,1.6,1.1,1.6,0.9]
 ```
- 🔸 Average values of each column has been calculated. With this, “covariance matrix” will created.
+Average values of each column has been calculated. With this, “covariance matrix” will created.
 ```
 for i in range(len(dataX)):
     meanX += dataX[i] 
