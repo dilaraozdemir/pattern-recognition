@@ -136,7 +136,7 @@ print("Covariance Matrix: ",cov_matrix)
 
 <img src="./images/k-means.png" alt="k-means clustering" />
 
-🔸 The dataset has 200 exampke and in start position, 4 "center" has been determined.
+The dataset has 200 exampke and in start position, 4 "center" has been determined.
 ```
 dataset, classes = make_blobs(n_samples=200, n_features=2, centers=4, cluster_std=0.5, random_state=0)
 ```
