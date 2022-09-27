@@ -266,12 +266,12 @@ for i in range(len(data)):
         rainyY += 1
 ```
 
-🔸 An input taken from user for testing.
+An input taken from user for testing.
 ```
 weather = input("Please input weather:\n S for sunny\n R for rainy\n C for cloudy\n")
 playrate = input("Futbol oynanacak mı?:\n Evet için E\n Hayır için H \n")
 ```
-🔸 Each state calculated with input taken from user.
+Each state calculated with input taken from user.
 ```
 if weather == "S" and playrate == "Y":
     print(((sunnyY/yes)*(yes/len(data))) / (sunny/len(data))) 
@@ -287,23 +287,23 @@ if weather == "C" and playrate == "H":
     print(((cloudyN/no)*(no/len(data))) / (cloudy/len(data)))
 ```
 ## MULTINOMIAL NAIVE BAYES METHOD
-🔸 Words and categories defined.
+Words and categories defined.
 ```
 dataset = [["Chinese Beijing Chinese", "Ç"],
            ["Chinese Chinese Shangai", "Ç"],
            ["Chinese Macao Shangai", "Ç"],
             ["Tokyo Japan Chinese", "J"]]         
 ```
-🔸 Dataset has been defined as dataframe and categories column as “Categories”; words column as "Text".
+Dataset has been defined as dataframe and categories column as “Categories”; words column as "Text".
 ```
 dataset = pd.DataFrame(dataset)
 dataset.columns = ["Text", "Categories"]
 ```
-🔸 Stopwords method has been used for extracting insignificant words.
+Stopwords method has been used for extracting insignificant words.
 ```
 nltk.download('stopwords')
 ```
-🔸 Each word has been merged without spaces and uppercase. Merged words assigned to corpus variable and as a result of that defining process will be completed.
+Each word has been merged without spaces and uppercase. Merged words assigned to corpus variable and as a result of that defining process will be completed.
 
 ```
 corpus = []
